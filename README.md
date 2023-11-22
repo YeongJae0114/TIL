@@ -10,4 +10,4 @@
 
 ### spring
 - Java
-	- [0.JVM/JRE/JDK]https://github.com/YeongJae0114/TIL/blob/main/Java-yalco/Java_0.md
+	- [0.JVM/JRE/JDK](https://github.com/YeongJae0114/TIL/blob/main/Java-yalco/Java_0.md)
