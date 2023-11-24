@@ -13,3 +13,5 @@
 	- [0.JVM/JRE/JDK](https://github.com/YeongJae0114/TIL/blob/main/Java-yalco/Java_0.md)
 	- [1. Java 시작하기](https://github.com/YeongJae0114/TIL/blob/main/Java-yalco/Java_1.md)
 	- [2. Java 자료형과 연산자](https://github.com/YeongJae0114/TIL/blob/main/Java-yalco/Java_2.md)
+	- [3. Java 제어문과 메소드](https://github.com/YeongJae0114/TIL/blob/main/Java-yalco/Java_3.md)
+
