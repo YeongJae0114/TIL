@@ -19,6 +19,7 @@
 	- [기본형과 참조형](https://github.com/YeongJae0114/TIL/blob/main/Java-basic/Java-ref.md)
 	- [생성자 + 객체](https://github.com/YeongJae0114/TIL/blob/main/Java-basic/Java-construct.md)
 	- [메모리 + stack + final](https://github.com/YeongJae0114/TIL/blob/main/Java-basic/Java-memory_stack_final.md)
+	- [상속과 메모리 관리](https://github.com/YeongJae0114/TIL/blob/main/Java-basic/Java-extends.md)
 
 
 
