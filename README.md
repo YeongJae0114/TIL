@@ -9,6 +9,11 @@
 ## 분류
 
 ### spring
+
+- Spring boot
+	- [0.프로젝트 환경 설정 (View 환경설정)]()https://github.com/YeongJae0114/TIL/blob/main/Spring-boot/Spring-boot_0.md
+
+
 - Java(기본기)
 	- [0.JVM/JRE/JDK](https://github.com/YeongJae0114/TIL/blob/main/Java-yalco/Java_0.md)
 	- [1. Java 시작하기](https://github.com/YeongJae0114/TIL/blob/main/Java-yalco/Java_1.md)
