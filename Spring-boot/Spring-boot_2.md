@@ -5,9 +5,11 @@
 - DB : 데이터 저장소가 선정되지 않음.
 
 **클래스 의존 관계**
-![ClassDependency](/img/Spring-boot/ClassDependency.png){: width="300" height="300"}
+
+<img src="/img/Spring-boot/ClassDependency.png" alt="ClassDependency" width="300" height="300" />
+
 - 데이터 저장소가 선정되지 않았기 때문에
-	- 인터페이스로 구현 클래스를 변경할 수 있도록 설계
+- 인터페이스로 구현 클래스를 변경할 수 있도록 설계
 
 ### 2.회원 도메인과 리포지토리 만들기
 
@@ -66,6 +68,7 @@ public interface MemberRepository {
 - findAll() 
 	- List : 배열과 비슷하지만 편리한 기능이 더 많은 자료형
 
+
 #### 회원 리포지토리 메모리 구현체
 ```java
 package hello.hellospring.repositort;
@@ -105,5 +108,5 @@ public class MemoryMemberRepository implements MemberRepository {
 }
 
 ```
-
+- 
 
