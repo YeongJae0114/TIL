@@ -6,7 +6,7 @@
 
 **클래스 의존 관계**
 
-<img src="/img/Spring-boot/ClassDependency.png" alt="ClassDependency" width="400" height="300" />
+<img src="/img/Spring-boot/ClassDependency.png" alt="ClassDependency" width="500" height="300" />
 
 - 데이터 저장소가 선정되지 않았기 때문에
 - 인터페이스로 구현 클래스를 변경할 수 있도록 설계
