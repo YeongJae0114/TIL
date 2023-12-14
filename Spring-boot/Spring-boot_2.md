@@ -5,7 +5,7 @@
 - DB : 데이터 저장소가 선정되지 않음.
 
 **클래스 의존 관계**
-![ClassDependency](./img/Spring-Boot/ClassDependency.png)
+![ClassDependency](./img/Spring-boot/ClassDependency.png)
 
 
 
