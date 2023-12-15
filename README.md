@@ -11,8 +11,8 @@
 ### spring
 
 - Spring boot
-	- [0.프로젝트 환경 설정 (View 환경설정)](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot/Spring-boot_0.md)
-	- [1.스프링 웹개발 기초 MVC](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot/Spring-boot_1.md)
+	- [0.프로젝트 환경 설정 (View 환경설정)](https://github.com/YeongJae0114/TIL/blob/main/Spring-Boot/Spring-Boot_0.md)
+	- [1.스프링 웹개발 기초 MVC](https://github.com/YeongJae0114/TIL/blob/main/Spring-Boot/Spring-Boot_1.md)
 
 
 - Java(기본기)
