@@ -16,6 +16,8 @@
 	- [2-1.회원관리 예제(백엔드 개발)](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot/Spring-Boot_2-1.md)
 	- [2-2.회원관리 테스트 케이스(백엔드 개발)](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot/Spring-Boot_2-2.md)
 	- [2-3.회원 서비스 테스트 케이스(백엔드 개발)](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot/Spring-Boot_2-3.md)
+	- [2-4.스프링 빈과 의존관계](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot/Spring-Boot_2-4.md)
+	- [3.웹 MVC 개발](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot/Spring-Boot_3.md)
 
 
 
