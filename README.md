@@ -10,7 +10,12 @@
 
 ### spring
 
-- Spring boot
+- **Spring MVC (핵심 기술)**
+	- [0. 웹 애플리케이션 이해](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_0.md)
+
+
+
+- **Spring boot**
 	- [0.프로젝트 환경 설정 (View 환경설정)](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot/Spring-Boot_0.md)
 	- [1.스프링 웹개발 기초 MVC](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot/Spring-Boot_1.md)
 	- [2-1.회원관리 예제(백엔드 개발)](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot/Spring-Boot_2-1.md)
@@ -22,7 +27,9 @@
 
 
 
-- Java(기본기)
+
+
+- **Java(기본기)**
 	- [0.JVM/JRE/JDK](https://github.com/YeongJae0114/TIL/blob/main/Java-yalco/Java_0.md)
 	- [1. Java 시작하기](https://github.com/YeongJae0114/TIL/blob/main/Java-yalco/Java_1.md)
 	- [2. Java 자료형과 연산자](https://github.com/YeongJae0114/TIL/blob/main/Java-yalco/Java_2.md)
