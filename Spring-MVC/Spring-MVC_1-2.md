@@ -12,6 +12,8 @@
 - message body: `{"username": "hello", "age": 20}`
 - 결과: `messageBody = {"username": "hello", "age": 20}`
 
+<img src="/img/Spring_MVC/httprequest.png" alt="Servlet" width="500" height="300" />
+
 json형식을 파싱하기 위한 객체
 ```java
 package hello.servlet.basic;
