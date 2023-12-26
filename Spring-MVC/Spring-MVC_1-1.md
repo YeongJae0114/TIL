@@ -2,7 +2,7 @@
 
 ## 서블릿이란?
 - http 스펙을 쉽게 사용 가능하게 해주는 도구
-
+<img src="img/Spring_MVC/Servlet.png" alt="Servlet" width="500" height="300" />
 
 ### 서블릿 컨테이너 동작 방식
 - 스프링 부트가 실행되면, 내장 톰캣 서버가 실행
