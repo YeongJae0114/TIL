@@ -3,6 +3,7 @@
 	- HTTP API에서 주로 사용, JSON, XML, TEXT 
 	- 데이터 형식은 주로 JSON 사용
 	- POST, PUT, PATCH
+<img src="/img/Spring_MVC/ServletConten.png" alt="Servlet" width="500" height="300" />
 
 ## HTTP 요청 데이터 - API 메시지 바디 - JSON
 **JSON 형식 전송**
