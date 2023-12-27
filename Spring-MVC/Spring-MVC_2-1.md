@@ -156,6 +156,8 @@ public class MemberListServlet extends HttpServlet {
 	2. 회원 목록 HTML을 for 루프를 통해서 회원 수 만큼 동적으로 생성하고 응답한다.
 
 ```text
-서블릿과 자바 코드만으로 html을 만들었다. 서블릿을 사용하여 동적인 html 문서를 만들 수 있었지만, 매우 복잡하고 비효율 적이다. 정적인 부분까지 모두 작성 했기 때문이다. 이를 보안한 템플릿 엔진을 사용하는게 효율적이다. 템플릿 엔진으로는 JSP, Thymeleaf, Freemarker, Velocity등이 있다.
+서블릿과 자바 코드만으로 html을 만들었다. 서블릿을 사용하여 동적인 html 문서를 만들 수 있었지만, 매우 복잡하고 비효율 적이다. 
+정적인 부분까지 모두 작성 했기 때문이다. 이를 보안한 템플릿 엔진을 사용하는게 효율적이다.
+템플릿 엔진으로는 JSP, Thymeleaf, Freemarker, Velocity등이 있다.
 ```
 
