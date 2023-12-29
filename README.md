@@ -17,6 +17,8 @@
 	- [1-3. HttpServletResponse](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_1-3.md)
 	- [2-0. 회원관리 웹 요구사항](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_2-0.md)
 	- [2-1. Servlet으로 구현](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_2-1.md)
+	- [2-2. JSP로 구현](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_2-2.md)
+	- [2-3. MVC 패턴](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_2-3.md)
 
 
 - **Spring boot**
