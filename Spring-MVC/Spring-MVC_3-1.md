@@ -1,15 +1,15 @@
 ## 프론트 컨트롤러 패턴
 **프론트 컨트롤러 도입 전**
-<img src="/img/Spring_MVC/ControllerV1_1.png" alt="Servlet" width="500" height="300" />
 
+<img src="/img/Spring_MVC/ControllerV1_1.png" alt="Servlet" width="500" height="300" />
 
 **프론트 컨트롤러 도입 후**
 
 <img src="/img/Spring_MVC/ControllerV1_2.png" alt="Servlet" width="500" height="300" />
 
 **V1 구조**
-<img src="/img/Spring_MVC/ControllerV1_3.png" alt="Servlet" width="500" height="300" />
 
+<img src="/img/Spring_MVC/ControllerV1_3.png" alt="Servlet" width="500" height="300" />
 
 **FrontController 패턴 특징**
 - 컨트롤러 서블릿 하나로 클라이언트 요청 처리(프론트 컨트롤러가 요청에 맞는 컨트롤러를 찾아서 호출)
