@@ -22,6 +22,7 @@
 	- [2-4. MVC 한계](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_2-4.md)
 	- [3-1. Front Controller -v1](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_3-1.md)
 	- [3-2. View 분리 -v2](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_3-2.md)
+	- [3-3. 종속성 제거 -v3](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_3-3.md)
 
 
 - **Spring boot**
