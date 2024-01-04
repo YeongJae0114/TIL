@@ -20,7 +20,8 @@
 	- [2-2. JSP로 구현](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_2-2.md)
 	- [2-3. MVC 패턴](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_2-3.md)
 	- [2-4. MVC 한계](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_2-4.md)
-	- [3-1. Front Controller](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_3-1.md)
+	- [3-1. Front Controller -v1](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_3-1.md)
+	- [3-2. View 분리 -v2](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_3-2.md)
 
 
 - **Spring boot**
