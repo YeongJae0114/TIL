@@ -23,6 +23,9 @@
 	- [3-1. Front Controller -v1](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_3-1.md)
 	- [3-2. View 분리 -v2](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_3-2.md)
 	- [3-3. 종속성 제거 -v3](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_3-3.md)
+   	- [3-4. 실용적인 컨트롤러 -v4](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_3-4.md)
+	- [3-5. 유연한 컨트롤러 -v5](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_3-5.md)
+
 
 
 - **Spring boot**
