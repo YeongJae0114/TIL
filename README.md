@@ -25,8 +25,8 @@
 	- [3-3. 종속성 제거 -v3](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_3-3.md)
    	- [3-4. 실용적인 컨트롤러 -v4](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_3-4.md)
 	- [3-5. 유연한 컨트롤러 -v5](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_3-5.md)
-	- [3-요약 MVC(v1~v5)](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_3-요약.md)
-  	- [4.0-Spring MVC](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_4-0.md)
+	- [3-요약. MVC(v1~v5)](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_3-요약.md)
+  	- [4-0. Spring MVC](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_4-0.md)
 
 
 
