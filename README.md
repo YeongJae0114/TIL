@@ -27,7 +27,11 @@
    	- [3-4. 실용적인 컨트롤러 -v4](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_3-4.md)
 	- [3-5. 유연한 컨트롤러 -v5](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_3-5.md)
 	- [3-요약. MVC(v1~v5)](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_3-요약.md)
-  	- [4-0. Spring MVC](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_4-0.md)
+  	- [4-0. Spring MVC 구조](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_4-0.md)
+  	- [4-1. 핸들러 매핑, 어댑터, 뷰 리졸버](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_4-1.md)
+  	- [4-2. Spring MVC 시작](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_4-2.md)
+  	- [4-3. Spring MVC 컨트롤러 통합](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_4-3.md)
+  	- [4-4. Spring MVC 실용적인 컨트롤러](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_4-4.md)
 
 
 
