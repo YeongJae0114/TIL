@@ -32,6 +32,8 @@
   	- [4-2. Spring MVC 시작](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_4-2.md)
   	- [4-3. Spring MVC 컨트롤러 통합](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_4-3.md)
   	- [4-4. Spring MVC 실용적인 컨트롤러](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_4-4.md)
+  	- [5-1. 로깅](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_5-1.md)
+
 
 
 
