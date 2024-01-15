@@ -33,6 +33,9 @@
   	- [4-3. Spring MVC 컨트롤러 통합](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_4-3.md)
   	- [4-4. Spring MVC 실용적인 컨트롤러](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_4-4.md)
   	- [5-1. 로깅](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_5-1.md)
+  	- [5-2. 요청 매핑](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_5-2.md)
+  	- [5-3. 요청 매핑-API, (기본, 헤더 조회) ](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_5-3.md)
+  	- [5-4. HTTP 요청 파라미터](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_5-4.md)
 
 
 
