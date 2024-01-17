@@ -1,5 +1,5 @@
 ## HTTP 요청 메시지 - 단순 텍스트
-**HTTP message body**에 데이터를 직접 담아서 요청 
+- **HTTP message body**에 데이터를 직접 담아서 요청
 	- HTTP API에서 주로 사용, JSON, XML, TEXT 
 	- 데이터 형식은 주로 JSON 사용
 	- POST, PUT, PATCH
