@@ -36,5 +36,6 @@
   	- [5-2. 요청 매핑](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_5-2.md)
   	- [5-3. 요청 매핑-API, (기본, 헤더 조회) ](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_5-3.md)
   	- [5-4. HTTP 요청 파라미터](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_5-4.md)
-  	- [5-5. HTTP 요청 메시지](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_5-5.md)
+  	- [5-5. HTTP 요청 메시지 - text](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_5-5.md)
+  	- [5-6. HTTP 요청 메시지 - JSON](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_5-6.md)
 
