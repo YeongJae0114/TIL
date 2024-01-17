@@ -10,7 +10,7 @@
 
 ### Basic
 
-- [**Java(기본기)**](https://github.com/YeongJae0114/TIL/tree/main/Java-basic)
+- [**Java(기본기)**](https://github.com/YeongJae0114/TIL/blob/main/Java-basic/README.md)
 
 
 ### Spring
