@@ -2,10 +2,10 @@
 
 **SpringMVC 구조**
 
-<img src="/img/Spring_MVC/ControllerSpring_1.png" alt="ControllerSpring_1" width="500" height="400" />
+<img src="/img/Spring_MVC/ControllerSpring_1.png" alt="ControllerSpring_1" width="600" height="300" />
 
 
-<img src="/img/Spring_MVC/HandlerAdapter.png" alt="HandlerAdapter" width="500" height="400" />
+<img src="/img/Spring_MVC/HandlerAdapter.png" alt="HandlerAdapter" width="600" height="300" />
 
 **ArgumentResolver**
 > 생각해보면, 애노테이션 기반의 컨트롤러는 매우 다양한 파라미터를 사용할 수 있었다.
