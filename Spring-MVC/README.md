@@ -38,7 +38,7 @@
   	- [5-4. HTTP 요청 파라미터](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_5-4.md)
   	- [5-5. HTTP 요청 메시지 - text](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_5-5.md)
   	- [5-6. HTTP 요청 메시지 - JSON](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_5-6.md)
-  	- [5-7. HTTP 응답 - 정적 리소스, 뷰 템플릿, HTTP API, 메시지 바디에 직접 입력](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_5-6.md)
-  	- [5-8. HTTP 메시지 컨버터 ](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_5-6.md)
-  	- [5-9. 요청 매핑 헨들러 어뎁터 구조 ](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_5-6.md)
+  	- [5-7. HTTP 응답 - 정적 리소스, 뷰 템플릿, HTTP API, 메시지 바디에 직접 입력](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_5-7.md)
+  	- [5-8. HTTP 메시지 컨버터 ](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_5-8.md)
+  	- [5-9. 요청 매핑 헨들러 어뎁터 구조 ](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/Spring-MVC_5-9.md)
 
