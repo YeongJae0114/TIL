@@ -8,19 +8,12 @@
 
 ## 분류
 
-### Basic
-
-- [**Java(기본기)**](https://github.com/YeongJae0114/TIL/blob/main/Java-basic/README.md)
-
-
-### Spring
+### Spring MVC-2
 
 - [**Spring MVC (핵심 기술)**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/README.md)
  
-- [**Spring boot**](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot/README.md)
 
 
-### Git / Github
 
 
 
