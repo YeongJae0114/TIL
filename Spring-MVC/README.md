@@ -9,7 +9,7 @@
 ## 분류
 
 ### 실습	
-
+- **Spring MVC패턴 적용**
 	- [Item-servics](https://github.com/YeongJae0114/Item-servics)
 	
 
