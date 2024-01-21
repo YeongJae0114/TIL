@@ -10,7 +10,8 @@
 
 ### Spring MVC-2
 
-- [**Spring MVC (핵심 기술)**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/README.md)
+- [**Thymeleaf 소개**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Thymeleaf/Thymeleaf_0.md)
+- [**Thymeleaf 기본 기능**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Thymeleaf/Thymeleaf_1.md)
  
 
 
