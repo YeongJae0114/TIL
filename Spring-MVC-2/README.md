@@ -8,10 +8,11 @@
 
 ## 분류
 
-### Spring MVC-2
+## Spring MVC-2
 
-- [**Thymeleaf 소개**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Thymeleaf/Thymeleaf_0.md)
-- [**Thymeleaf 기본 기능**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Thymeleaf/Thymeleaf_1.md)
+### Thymeleaf
+ - [**Thymeleaf 소개**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Thymeleaf/Thymeleaf_0.md)
+ - [**Thymeleaf 기본 기능**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Thymeleaf/Thymeleaf_1.md)
  
 
 
