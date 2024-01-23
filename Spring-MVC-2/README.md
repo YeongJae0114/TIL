@@ -18,7 +18,8 @@
  - [**1-1 입력 폼**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC-2_1.md)
  - [**1-2 라디오 박스, 체크 버튼, 셀렉트 박스**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC-2_2.md)
 
-
+### 메시지, 국제화
+- 
 
 
 
