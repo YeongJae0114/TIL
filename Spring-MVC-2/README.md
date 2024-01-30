@@ -23,6 +23,20 @@
 - [**3-1 스프링 메시지 소스 설정**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_3-1.md)
 
 
+### Validation-검증 V1
+- [**4-1 검증 직접 처리**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_4-1.md)
+- [**4-2 검증 - BindingResult**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_4-2.md)
+- [**4-3 FieldError, ObjectError**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_4-3.md)
+- [**4-4 오류 코드와 메시지 처리**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_4-4.md)
+
+
+### Bean Validation-검증 V2
+- [**5-0 검증 - Bean Validation 개념**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_5-0.md)
+- [**5-1 Bean Validation(검증기 생성) - v2**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_5-1.md)
+- [**5-2 Bean Validation(@validated 적용) - v3**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_5-2.md)
+- [**5-3 Bean Validation의 한계**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_5-3.md)
+- [**5-4 Form 전송 객체 분리**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_5-4.md)
+- [**5-5 Bean Validation - HTTP 메시지 컨버터**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_5-5.md)
 
 
 
