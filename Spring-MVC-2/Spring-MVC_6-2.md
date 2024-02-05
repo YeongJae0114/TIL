@@ -4,13 +4,13 @@
 
 
 **쿠키 생성**
-<img src="/img/Spring_MVC/cookie1.png" alt="cookie1" width="500" height="400" />
+<img src="/img/Spring_MVC/cookie1.png" alt="cookie1" width="600" height="300" />
 
 **클라이언트 쿠키 전달1**
-<img src="/img/Spring_MVC/cookie2.png" alt="cookie2" width="500" height="400" />
+<img src="/img/Spring_MVC/cookie2.png" alt="cookie2" width="600" height="300" />
 
 **클라이언트 쿠키 전달2**
-<img src="/img/Spring_MVC/cookie3.png" alt="cookie3" width="500" height="400" />
+<img src="/img/Spring_MVC/cookie3.png" alt="cookie3" width="600" height="300" />
 
 **쿠키에는 영속 쿠키와 세션 쿠키**
 - 영속 쿠키: 만료 날짜를 입력하면 해당 날짜까지 유지
@@ -60,7 +60,8 @@ public class HomeController {
     }
 }
 ```
-- `@CookieValue` 를 사용하면 편리하게 쿠키를 조회- 로그인 하지 않은 사용자도 홈에 접근할 수 있기 때문에 `required = false` 를 사용
+- `@CookieValue` 를 사용하면 편리하게 쿠키를 조회
+- 로그인 하지 않은 사용자도 홈에 접근할 수 있기 때문에 `required = false` 를 사용
 
 ### 로그아웃 기능
 이번에는 로그아웃 기능을 만들어보자. 로그아웃 방법은 다음과 같다. 
