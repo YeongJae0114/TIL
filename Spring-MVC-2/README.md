@@ -42,6 +42,8 @@
 ### 6.로그인 처리 1 - 쿠키, 세션
 - [**6-0 로그인 요구사항(패키지 구조)**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_6-0.md)
 - [**6-1 홈 화면, Controller, View templates 적용**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_6-1.md)
-- [**6-3 로그인 처리하기- 쿠키**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_6-2.md)
+- [**6-2 로그인 처리하기- 쿠키**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_6-2.md)
+- [**6-3 로그인 처리하기- 세션**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_6-3.md)
+- [**6-4 로그인 처리하기- 서블릿 HTTP 세션**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_6-4.md)
 
 
