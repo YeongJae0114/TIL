@@ -47,6 +47,16 @@
 - [**6-4 로그인 처리하기- 서블릿 HTTP 세션**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_6-4.md)
 
 
-### 7.로그인 처리 2 
+### 7.로그인 처리 2 - 필터, 인터셉터
+- [**7-0 서블릿 필터**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_7-0.md)
+- [**7-1 서블릿 필터 - 인증 체크**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_7-1.md)
+- [**7-2 스프링 인터셉터**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_7-2.md)
+
+
+### 8.예외 처리와 오류 페이지
+- [**8-0 서블릿 예외 처리 - 시작**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_8-0.md)
+- [**8-1 수정 중**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_8-1.md)
+
+
 
 
