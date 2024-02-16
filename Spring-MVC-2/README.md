@@ -58,5 +58,9 @@
 - [**8-1 수정 중**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_8-1.md)
 
 
+### 9.API 예외 처리
+- [**9-1 API 예외 처리**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_9-1.md)
+- [**9-2 HandlerExceptionResolver**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_9-2.md)
+
 
 
