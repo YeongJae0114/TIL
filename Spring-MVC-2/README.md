@@ -61,6 +61,9 @@
 ### 9.API 예외 처리
 - [**9-1 API 예외 처리**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_9-1.md)
 - [**9-2 HandlerExceptionResolver**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_9-2.md)
+- [**9-3 ExceptionResolver**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_9-3.md)
+- [**9-4 @ExceptionHandler**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_9-4.md)
+- [**9-5 @ControllerAdvice**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/Spring-MVC_9-5.md)
 
 
 
