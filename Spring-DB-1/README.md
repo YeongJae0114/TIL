@@ -6,24 +6,9 @@
 - 더 많은 공유를 원하는 기록은 블로그에 포스팅.
 - 꾸준히 체계적으로 TIL 작성하기. 
 
-## 분류
+## Spring DB
 
-### Basic
-
-- [**Java(기본기)**](https://github.com/YeongJae0114/TIL/blob/main/Java-basic/README.md)
-
-
-### Spring
-
-- [**Spring MVC (핵심 기술)**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/README.md)
-- [**Spring MVC-2 (활용)**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/README.md)
- 
-- [**Spring boot**](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot/README.md)
-
-
-### Git / Github
-
-- [**Git 되돌리기**](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot/README.md)
-
-
+### JDBC 이해
+ - [**1-0 JDBC 개념**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/Spring-DB_1-0.md)
+ - [**1-1 JDBC 개발**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/Spring-DB_1-1.md)
 
