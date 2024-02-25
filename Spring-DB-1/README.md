@@ -12,3 +12,8 @@
  - [**1-0 JDBC 개념**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/Spring-DB_1-0.md)
  - [**1-1 JDBC 개발**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/Spring-DB_1-1.md)
 
+### 커넥션풀과 데이터소스 이해
+ - [**2-0 커넥션 풀 이해**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/Spring-DB_2-0.md)
+ - [**2-1 DataSource 이해, 예제**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/Spring-DB_2-1.md)
+ - [**2-2 DataSource 적용**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/Spring-DB_2-2.md)
+
