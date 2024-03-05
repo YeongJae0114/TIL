@@ -24,3 +24,8 @@
  - [**3-3 트랜잭션 적용**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/Spring-DB_3-3.md)
 
 
+### 4.스프링과 문제 해결 - 트랜잭션 
+ - [**4-0 스프링과 문제 해결 - 트랜잭션**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/Spring-DB_4-0.md)
+ - [**4-1 트랜잭션 매니저**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/Spring-DB_4-1.md)
+ - [**4-2 트랜잭션 템플릿과 AOP**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/Spring-DB_4-2.md)
+ - [**4-3 스프링 부트의 자동 리소스 등록**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/Spring-DB_4-3.md)
