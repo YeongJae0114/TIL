@@ -28,7 +28,7 @@
 ## 해결 - 트랜잭션 추상화
 스프링은 이미 이런 고민을 다 해두었다. 우리는 스프링이 제공하는 트랜잭션 추상화 기술을 사용하면 된다.
 
-<img src="/img/Spring_DB/DB-3_1.png" alt="Tx" width="800" height="300" />
+<img src="/img/Spring_DB/DB-3_1.png" alt="Tx" width="600" height="350" />
 
 **PlatformTransactionManager 인터페이스**
 
@@ -54,4 +54,4 @@ package org.springframework.transaction;
 - 리소스 동기화
 	- 트랜잭션을 유지하려면 트랜잭션의 시작부터 끝까지 같은 데이터베이스 커넥션을 유지
 
-<img src="/img/Spring_DB/DB-3_2.png" alt="Tx" width="800" height="300" />
+<img src="/img/Spring_DB/DB-3_2.png" alt="Tx" width="600" height="350" />
