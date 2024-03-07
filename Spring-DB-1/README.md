@@ -29,3 +29,11 @@
  - [**4-1 트랜잭션 매니저**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/Spring-DB_4-1.md)
  - [**4-2 트랜잭션 템플릿과 AOP**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/Spring-DB_4-2.md)
  - [**4-3 스프링 부트의 자동 리소스 등록**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/Spring-DB_4-3.md)
+
+
+### 5.자바 예외 이해
+ - [**5-0 예외 계층 - 기본 규칙**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/Spring-DB_5-0.md)
+ - [**5-1 체크 예외**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/Spring-DB_5-1.md)
+ - [**5-2 언체크 예외**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/Spring-DB_5-2.md)
+
+
