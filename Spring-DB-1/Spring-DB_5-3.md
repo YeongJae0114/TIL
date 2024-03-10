@@ -12,19 +12,20 @@
 
 **체크 예외의 문제점**
 체크 예외는 컴파일러가 예외 누락을 체크해주기 때문에 개발자가 실수로 예외를 놓치는 것을 막아준다. 하지만 처리할 수 없을 때는 예외를 던지도록 해야한다.
-하지만 계좌 이체, 실패 예외(체크 예외)와 같은 `SQLException` 데이터베이스에서 발생하는 문제는 애플리케이션 로직에서 처리할 방법이 없다. 때문에 예외를 던져야 하는데 체크 예외이기 때문에 
-`method() throws SQLException, ConnectException` 처럼 예외를 선언해 던져야 한다. 이때 또 발생하는 원인인 `SQLException`처럼 의존 관계에 대한 문제가 발생한다.
+하지만 계좌 이체, 실패 예외(체크 예외)와 같은 `SQLException` 데이터베이스에서 발생하는 문제는 애플리케이션 로직에서 처리할 방법이 없다. 때문에 예외를 던져야 하는데 체크 예외이기 때문에 `method() throws SQLException, ConnectException` 처럼 예외를 선언해 던져야 한다. 이때 또 발생하는 원인인 `SQLException`처럼 의존 관계에 대한 문제가 발생한다.
 
 따라서 2개자 문제가 발생한다.
 1. 복구 불가능한 예와
 2. 의존관계에 대한 문제
 
 **체크 예외 구현 기술 변경시 파급 효과**
-<img src="/img/Spring_DB/DB-5_3.png" alt="체크 예외" width="600" height="350" />
+
+<img src="/img/Spring_DB/DB-5_3.png" alt="체크 예외" width="700" height="300" />
 
 **언체크 예외 활용**
 
-<img src="/img/Spring_DB/DB-5_4.png" alt="언체크 예외" width="600" height="350" />
+<img src="/img/Spring_DB/DB-5_4.png" alt="언체크 예외" width="700" height="300" />
+
 - `SQLException` 을 런타임 예외인 `RuntimeSQLException` 으로 변환했다.
 - `ConnectException` 대신에 `RuntimeConnectException` 을 사용하도록 바꾸었다.
 - 런타임 예외이기 때문에 서비스, 컨트롤러는 해당 예외들을 처리할 수 없다면 별도의 선언 없이 그냥 두면 된다.
