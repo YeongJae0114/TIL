@@ -35,5 +35,6 @@
  - [**5-0 예외 계층 - 기본 규칙**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/Spring-DB_5-0.md)
  - [**5-1 체크 예외**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/Spring-DB_5-1.md)
  - [**5-2 언체크 예외**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/Spring-DB_5-2.md)
+ - [**5-3 체크 예외와 언체크 예외 활용**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/Spring-DB_5-3.md)
 
 
