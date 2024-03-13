@@ -1,6 +1,7 @@
 ## 스프링 컨테이너
 
-**스프링 컨테이너 생성**```java
+**스프링 컨테이너 생성**
+```java
 //스프링 컨테이너 생성
 ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
 ```
@@ -13,7 +14,9 @@ ApplicationContext applicationContext = new AnnotationConfigApplicationContext(A
 - 직전에 `AppConfig` 를 사용했던 방식이 애노테이션 기반의 자바 설정 클래스로 스프링 컨테이너를 만든 것이다.
 
 **스프링 컨테이너 생성 과정**
-<img src="/img/Spring_Core/Core-2_2.png" alt="주문 도메인" width="500" height="400"/>
+
+<img src="/img/Spring_Core/Core-2_2.png" alt="주문 도메인" width="700" height="350"/>
+
 - 스프링 컨테이너는 파라미터로 넘어온 설정 클래스 정보를 사용해서 스프링 빈을 등록한다.
 
 ## 스프링 컨테이너 적용
