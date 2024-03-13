@@ -17,6 +17,7 @@
  - [**2-1 객체 지향 원리 적용**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Core/Spring-Core_2-1.md)
 
 ### 4. 스프링 컨테이너와 스프링 빈
+ - [**2-2 객체 지향 원리 적용**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Core/Spring-Core_2-2.md)
 
 ### 5. 싱글톤 컨테이너
 
