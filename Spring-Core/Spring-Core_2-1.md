@@ -304,6 +304,7 @@ public class AppConfig {
     }
 }
 ```
+- @Configuration : AppConfig에 설정을 구성한다는 뜻
 - AppConfig는 애플리케이션의 실제 동작에 필요한 **구현 객체를 생성**한다. 	- `MemberServiceImpl`
 	- `MemoryMemberRepository`
 	- `OrderServiceImpl`
