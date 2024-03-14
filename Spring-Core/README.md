@@ -17,4 +17,4 @@
  
  - [**5-1 싱글톤 컨테이너**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Core/Spring-Core_5-1.md)
 
- - [**6-1 싱글톤 컨테이너**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Core/Spring-Core_6-1.md)
+ - [**6-1 컴포넌트 스캔**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Core/Spring-Core_6-1.md)
