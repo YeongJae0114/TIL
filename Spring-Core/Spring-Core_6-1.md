@@ -65,12 +65,12 @@ public class AutoAppConfig {   }
 - `@Autowired` 를 사용하면 생성자에서 여러 의존관계도 한번에 주입받을 수 있다.
 
 **1. @ComponentScan**
-<img src="/img/Spring_Core/Core-6_1.png" alt="주문 도메인" width="600" height="450"/>
+<img src="/img/Spring_Core/Core-6_1.png" alt="주문 도메인" width="800" height="400"/>
 - `@ComponentScan` 은 `@Component` 가 붙은 모든 클래스를 스프링 빈으로 등록한다.
 
 
 **2. @Autowired 의존관계 자동 주입**
-<img src="/img/Spring_Core/Core-6_2.png" alt="주문 도메인" width="600" height="450"/>
+<img src="/img/Spring_Core/Core-6_2.png" alt="주문 도메인" width="800" height="400"/>
 - 생성자에 `@Autowired` 를 지정하면, 스프링 컨테이너가 자동으로 해당 스프링 빈을 찾아서 주입
 	- `getBean(MemberRepository.class)` 와 동일하다고 이해하면 된다.
 - 생성자에 파라미터가 많아도 다 찾아서 자동으로 주입.
