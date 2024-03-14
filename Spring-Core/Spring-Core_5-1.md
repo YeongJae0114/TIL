@@ -5,7 +5,7 @@
 
 **싱글톤 패턴이 없는 순수한 DI 컨테이너**
 
-<img src="/img/Spring_Core/Core-5_1.png" alt="주문 도메인" width="600" height="450"/>
+<img src="/img/Spring_Core/Core-5_1.png" alt="주문 도메인" width="700" height="400"/>
 
 ```java
 public class SingletonTest {
@@ -107,7 +107,7 @@ public class SingletonService {
 
 싱글톤 컨테이너 덕분에 이미 만들어진 객체를 공유해서 효율적으로 재사용할 수 있다.
 
-<img src="/img/Spring_Core/Core-5_2.png" alt="주문 도메인" width="700" height="350"/>
+<img src="/img/Spring_Core/Core-5_2.png" alt="주문 도메인" width="700" height="400"/>
 
 ### 싱글톤 방식의 주의점
 - 여러 클라이언트가 하나의 같은 객체 인스턴스를 공유하기 때문에 싱글톤 객체는 상태를 유지하게 설계하면 안된다.
