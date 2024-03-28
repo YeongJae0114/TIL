@@ -23,7 +23,7 @@
 ## 도메인 모델과 테이블 설계
 
 ### 도메인 모델과 테이블
-<img src="/img/Spring_Jpa/Jpa-1_1.png" alt="도메인 모델과 테이블" width="500" height="400"/>
+<img src="/img/Spring-Jpa/Jpa-1_1.png" alt="도메인 모델과 테이블" width="500" height="400"/>
 
 - 회원, 주문, 상품 
 	- 회원은 여러 상품을 주문할 수 있다.
@@ -37,7 +37,7 @@
  
 
 ### 엔티티 분석
-<img src="/img/Spring_Jpa/Jpa-1_2.png" alt="엔티티 분석" width="500" height="400"/>
+<img src="/img/Spring-Jpa/Jpa-1_2.png" alt="엔티티 분석" width="500" height="400"/>
 
 - **회원(Member):** 
 	- 이름과 임베디드 타입인 주소(`Address`)
@@ -65,5 +65,5 @@
 
 
 ### 테이블 분석
-<img src="/img/Spring_Jpa/Jpa-1_3.png" alt="엔티티 분석" width="500" height="400"/>
+<img src="/img/Spring-Jpa/Jpa-1_3.png" alt="엔티티 분석" width="500" height="400"/>
 
