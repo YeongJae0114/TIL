@@ -8,26 +8,8 @@
 
 ## 분류
 
-### Basic
-
-- [**Java(기본기)**](https://github.com/YeongJae0114/TIL/blob/main/Java-basic/README.md)
-
+- [**1-0 도메인 분석 설계**](https://github.com/YeongJae0114/TIL/blob/main/Spirng-Jpa-1/Spring-Jpa_1-0.md)
+- [**1-1 엔티티 클래스 개발**](https://github.com/YeongJae0114/TIL/blob/main/Spirng-Jpa-2/Spring-Jpa_1-0.md)
 
 
-### Spring
-- [**Spring Core**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Core/README.md)
-- [**Spring MVC (핵심 기술)**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/README.md)
-- [**Spring MVC-2 (활용)**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/README.md)
- 
-- [**Spring boot**](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot/README.md)
-
-- [**Spring DB-1**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/README.md)
-
-
-### Git / Github
-
-- [**Git 되돌리기**](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot/README.md)
-
-
-- [**Git**](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot/README.md)
 
