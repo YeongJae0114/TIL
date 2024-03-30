@@ -1,6 +1,7 @@
 ## 애플리케이션 아키텍처
 
-<img src="/img/Spring_Jpa/Jpa-2_0.png" alt="도메인 모델과 테이블" width="500" height="100"/>
+
+<img src="/img/Spring-Jpa/Jpa-2_0.png" alt="도메인 모델과 테이블" width="600" height="200"/>
 
 **계층형 구조 사용**
 - controller, web: 웹 계층
