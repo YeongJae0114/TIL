@@ -14,9 +14,9 @@
 - [**1-2 엔티티 설계시 주의점**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-1/Spring-Jpa_1-0.md)
 
 **회원 도메인 개발**
-- [**2-0 구현 요구사항**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-1/Spring-Jpa_2-0.md)
-- [**2-1 애플리케이션 아키텍처**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-1/Spring-Jpa_2-1.md)
-- [**2-2 회원 도메인 개발, 테스트 코드**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-1/Spring-Jpa_2-2.md)
+- [**2-0 애플리케이션 아키텍처**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-1/Spring-Jpa_2-0.md)
+- [**2-1 회원 도메인 개발, 테스트 코드**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-1/Spring-Jpa_2-1.md)
+
 
 
 
