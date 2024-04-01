@@ -19,10 +19,10 @@
 
 
 **상품 도메인 개발**
-- [**3-1 상품 도메인**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-1/Spring-Jpa_3-1.md)
+- [**3-1 상품 도메인**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-1/Spring-Jpa_3_1.md)
 
 **주문 도메인 개발**
-- [**4-1 주문상품 엔티티, 주문 리포지토리, 주문 서비스**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-1/Spring-Jpa_4-1.md)
-- [**4-2 주문 검색 기능**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-1/Spring-Jpa_4_2.md)
+- [**4-1 주문상품 엔티티, 주문 리포지토리, 주문 서비스**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-1/Spring-Jpa_4_1.md)
+- [**4-2 주문 검색 기능**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-1/Spring-Jpa_4_2.md)
 
 
