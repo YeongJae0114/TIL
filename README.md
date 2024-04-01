@@ -20,7 +20,7 @@
 - [**Spring MVC-2 (활용)**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/README.md)
 - [**Spring boot**](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot/README.md)
 - [**Spring DB-1**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/README.md)
-- [**Spring JPA-1**](https://github.com/YeongJae0114/TIL/blob/main/Spirng-Jpa-1/README.md)
+- [**Spring JPA-1**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-1/README.md)
 
 
 ### Git / Github
