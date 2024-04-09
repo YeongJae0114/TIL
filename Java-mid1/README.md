@@ -6,4 +6,7 @@
 - 더 많은 공유를 원하는 기록은 블로그에 포스팅.
 - 꾸준히 체계적으로 TIL 작성하기. 
 
-## 분류
+## 목차
+	- [0.java.lang 패키지](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java_mid_1-0.md)
+ 	- [0.java.lang 패키지](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java_mid_1-0.md)
+
