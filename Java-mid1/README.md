@@ -7,6 +7,6 @@
 - 꾸준히 체계적으로 TIL 작성하기. 
 
 ## 목차
-- [0.java.lang 패키지](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java_mid_1-0.md)
-- [0.java.lang 패키지](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java_mid_1-0.md)
+- [1-0 java.lang 패키지](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_1-0.md)
+- [1-1 Object 클래스](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_1-1.md)
 
