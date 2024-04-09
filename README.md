@@ -11,6 +11,7 @@
 ### Basic
 
 - [**Java(기본기)**](https://github.com/YeongJae0114/TIL/blob/main/Java-basic/README.md)
+- [**Java(중급)**](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/README.md)
 
 
 
