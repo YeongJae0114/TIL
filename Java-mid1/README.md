@@ -20,3 +20,13 @@
 - [2-1 공유 참조와 사이드 이펙트](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_2-1.md)
 - [2-2 불변 객체 - 도입](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_2-2.md)
 - [2-3 불변 객체 - 값 변경](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_2-3.md)
+
+### 3. String 클래스
+- [3-1 String 클래스(기본,비교)](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_3-1.md)
+- [3-2 불변 객체](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_3-2.md)
+- [3-3 주요 메서드](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_3-3.md)
+- [3-4 StringBuilder 가변 String](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_3-4.md)
+- [3-5 메서드 체이닝](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_3-5.md)
+
+
+
