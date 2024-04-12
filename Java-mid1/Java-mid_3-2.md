@@ -19,7 +19,7 @@ public class StringImmutable2 {
 **String이 불변으로 설계된 이유**
 문자열 풀에 있는 `String` 인스턴스의 값이 중간에 변경되면 같은 문자열을 참고하는 다른 변수의 값도 함께 변경 되기 때문이다.
 
-<img src="/img/Java-mid/mid-1_1.png" alt="String" width="600" height="400" />
+<img src="/img/Java-mid/mid-1_1.png" alt="String" width="600" height="300" />
 
 
 - `String` 은 자바 내부에서 문자열 풀을 통해 최적화를 한다.
