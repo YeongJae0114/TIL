@@ -28,5 +28,11 @@
 - [3-4 StringBuilder 가변 String](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_3-4.md)
 - [3-5 메서드 체이닝](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_3-5.md)
 
+### 4. 래퍼, Class 클래스
+- [4-1 래퍼클래스-기본형의 한계](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_4-1.md)
+- [4-2 Java 래퍼 클래스, 오토 박싱](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_4-2.md)
+- [4-3 래퍼 클래스 - 주요 매서드](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_4-3.md)
+- [4-4 Class 클래스](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_4-4.md)
+- [4-5 System, Math, Random 클래스](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_4-5.md)
 
 
