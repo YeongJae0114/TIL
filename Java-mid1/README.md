@@ -35,4 +35,8 @@
 - [4-4 Class 클래스](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_4-4.md)
 - [4-5 System, Math, Random 클래스](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_4-5.md)
 
+### 5. 열거형 - ENUM 
+- [5-1 문자열과 타입 안전성](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_5-1.md)
+- [5-2 타입 안전 열거형 패턴](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_5-2.md)
+- [5-3 열거형 - Enum Type](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_5-3.md)
 
