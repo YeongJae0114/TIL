@@ -39,4 +39,5 @@
 - [5-1 문자열과 타입 안전성](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_5-1.md)
 - [5-2 타입 안전 열거형 패턴](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_5-2.md)
 - [5-3 열거형 - Enum Type](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_5-3.md)
+- [5-4 열거형 - 문제와 풀이](https://github.com/YeongJae0114/TIL/blob/main/Java-mid1/Java-mid_5-4.md)
 
