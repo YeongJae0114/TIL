@@ -13,5 +13,6 @@
 
 
 **JPA 시작하기**
-- [**2-0 Hello-JPA**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_2-0.md)
+- [**2-0 Hello-JPA**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_2-0.md)
+
 
