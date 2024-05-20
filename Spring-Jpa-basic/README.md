@@ -23,3 +23,10 @@
 
 **연관관계 매핑 기초**
 - [**5-1 연관관계 매핑**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_5-1.md)
+
+**다양한 연관관계 매핑**
+- [**6-0 연관관계 매핑시 고려사항**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_6-0.md)
+- [**6-1 다대일, 일대일**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_6-1.md)
+- [**6-2 일대일**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_6-2.md)
+- [**6-3 다대다**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_6-3.md)
+
