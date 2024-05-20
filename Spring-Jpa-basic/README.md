@@ -15,4 +15,11 @@
 **JPA 시작하기**
 - [**2-0 Hello-JPA**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_2-0.md)
 
+**JPA 영속성 관리**
+- [**3-0 영속성 내부 동작 방식**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_3-0.md)
 
+**엔티티 매핑**
+- [**4-1 엔티티 매핑**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_4-1.md)
+
+**연관관계 매핑 기초**
+- [**5-1 연관관계 매핑**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_5-1.md)
