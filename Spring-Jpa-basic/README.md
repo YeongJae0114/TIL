@@ -30,3 +30,10 @@
 - [**6-2 일대일**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_6-2.md)
 - [**6-3 다대다**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_6-3.md)
 
+**고급 매핑**
+- [**7-1 연관관계 매핑**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_7-1.md)
+- [**7-2 Mapped Seperclass**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_7-2.md)
+
+
+
+
