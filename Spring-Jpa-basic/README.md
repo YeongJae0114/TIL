@@ -11,7 +11,6 @@
 **JPA 소개**
 - [**1-0 JPA 소개**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_1-0.md)
 
-
 **JPA 시작하기**
 - [**2-0 Hello-JPA**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_2-0.md)
 
@@ -34,6 +33,6 @@
 - [**7-1 연관관계 매핑**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_7-1.md)
 - [**7-2 Mapped Seperclass**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_7-2.md)
 
-
-
-
+**프록시와 연관관계 관리**
+- [**8-1 프록시**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_8-1.md)
+- [**8-1 즉시로딩과 지연로딩**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_8-2.md)
