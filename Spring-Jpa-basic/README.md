@@ -36,3 +36,15 @@
 **프록시와 연관관계 관리**
 - [**8-1 프록시**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_8-1.md)
 - [**8-1 즉시로딩과 지연로딩**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_8-2.md)
+
+
+**값 타입**
+- [**9-1 기본값 타입 임베디드 타입**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_9-1.md)
+- [**9-2 값타입의 불변 객체, 비교**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_9-2.md)
+
+
+**객체지향 쿼리 언어1 - 기본 문법**
+
+
+**객체지향 쿼리 언어2 - 중급 문법**
+
