@@ -48,6 +48,7 @@
 - [**10-2 JPQL-기본 문법 기능**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_10-2.md)
 - [**10-3 프로젝션, 페이징 API**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_10-3.md)
 - [**10-4 조인, 서브 쿼리**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_10-4.md)
+- [**10-5 조건식, JPQL 기본 함수**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_10-4.md)
 
 
 **11. 객체지향 쿼리 언어2 - 중급 문법**
