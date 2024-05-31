@@ -52,4 +52,7 @@
 
 
 **11. 객체지향 쿼리 언어2 - 중급 문법**
+- [**11-1 JPQL 경로 표현식**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_11-1.md)
+- [**11-2 JPQL 페치 조인(fetch join)**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/Jpa-basic_11-2.md)
+
 
