@@ -8,3 +8,4 @@
 
 ## 분류
 
+- [**1-1 API 개발 기본**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-2/Spring-Jpa_1-1.md)
