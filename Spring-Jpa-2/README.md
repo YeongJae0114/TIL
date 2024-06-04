@@ -9,3 +9,5 @@
 ## 분류
 
 - [**1-1 API 개발 기본**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-2/Spring-Jpa2_1-1.md)
+
+- [**3-1 API 개발 고급 - 지연 로딩과 조회 성능 최적화**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-2/Spring-Jpa2_3-1.md)
