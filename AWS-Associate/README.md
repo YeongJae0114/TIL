@@ -17,3 +17,5 @@
  - [**EBS/EFS 인스턴스 스토리지**](https://github.com/YeongJae0114/TIL/blob/main/AWS-Associate/AWS-Associate_6.md)
 
  - [**ELB + ASG 기초**](https://github.com/YeongJae0114/TIL/blob/main/AWS-Associate/AWS-Associate_7.md)
+
+ - [**Amazon RDS**](https://github.com/YeongJae0114/TIL/blob/main/AWS-Associate/AWS-Associate_8.md)
