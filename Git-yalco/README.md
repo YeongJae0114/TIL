@@ -8,10 +8,8 @@
 
 ### Git / Github
 
-- [**Git 이란?**](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot/README.md)
+- [**Git 이란?**](https://github.com/YeongJae0114/TIL/blob/main/Git-yalco/git-0.md)
 
+- [**Git 되돌리기**](https://github.com/YeongJae0114/TIL/blob/main/Git-yalco/git-1.md)
 
-- [**Git 되돌리기**](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot/README.md)
-
-- [**Git**](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot/README.md)
 
