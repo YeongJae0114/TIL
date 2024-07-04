@@ -8,14 +8,14 @@
 
 ## certificate developer
 
- - [**AWS 시작하기**](https://github.com/YeongJae0114/TIL/blob/main/AWS-Associate/AWS-Associate_3.md)
+ - [**3. AWS 시작하기**](https://github.com/YeongJae0114/TIL/blob/main/AWS-Associate/AWS-Associate_3.md)
 
- - [**AWS IAM**](https://github.com/YeongJae0114/TIL/blob/main/AWS-Associate/AWS-Associate_4.md)
+ - [**4. AWS IAM**](https://github.com/YeongJae0114/TIL/blob/main/AWS-Associate/AWS-Associate_4.md)
 
- - [**EC2 기초**](https://github.com/YeongJae0114/TIL/blob/main/AWS-Associate/AWS-Associate_5.md)
+ - [**5. EC2 기초**](https://github.com/YeongJae0114/TIL/blob/main/AWS-Associate/AWS-Associate_5.md)
 
- - [**EBS/EFS 인스턴스 스토리지**](https://github.com/YeongJae0114/TIL/blob/main/AWS-Associate/AWS-Associate_6.md)
+ - [**6. EBS/EFS 인스턴스 스토리지**](https://github.com/YeongJae0114/TIL/blob/main/AWS-Associate/AWS-Associate_6.md)
 
- - [**ELB + ASG 기초**](https://github.com/YeongJae0114/TIL/blob/main/AWS-Associate/AWS-Associate_7.md)
+ - [**7. ELB + ASG 기초**](https://github.com/YeongJae0114/TIL/blob/main/AWS-Associate/AWS-Associate_7.md)
 
- - [**Amazon RDS**](https://github.com/YeongJae0114/TIL/blob/main/AWS-Associate/AWS-Associate_8.md)
+ - [**8. Amazon RDS**](https://github.com/YeongJae0114/TIL/blob/main/AWS-Associate/AWS-Associate_8.md)
