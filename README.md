@@ -25,7 +25,7 @@
 - [**Spring JPA-1**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-1/README.md)
 - [**Spring JPA-2**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-2/README.md)
 
-## Spring Boot - CI / CD 무중단 배포
+### Spring Boot - CI / CD 무중단 배포
 - [**Spring Boot - CI / CD 무중단 배포**](https://github.com/YeongJae0114/TIL/tree/main/Spring-Boot-CI-CD)
 
 
