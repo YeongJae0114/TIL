@@ -15,9 +15,7 @@
 - 인증 관리자는 UserNamePasswordAuthenticationFilter, 접근 관리자는 FilterSecurityInterceptor가 수행
 
 ### 동작 원리
-
-![img]()
-
+![spring-security](https://github.com/user-attachments/assets/e0f1ad3d-91da-4615-b501-56678031459b)
 
 1. 사용자가 Form을 통해 로그인 정보를 입력하고 인증 요청을 보낸다.
 2. AuthenticationFilter(사용할 구현체 UsernamePasswordAuthenticationFilter)가 HttpServletRequest에서 사용자가 보낸 아이디와 패스워드를 인터셉트한다.
