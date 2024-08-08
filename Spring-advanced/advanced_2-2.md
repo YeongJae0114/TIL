@@ -3,11 +3,14 @@
 
 쓰레드 로컬을 사용하면 각 쓰레드마다 별도의 내부 저장소를 제공한다. 따라서 같은 인스턴스의 쓰레드 로컬 필드에 접 근해도 문제 없다.
 
-img1
+![스크린샷 2024-08-08 오후 4 52 28](https://github.com/user-attachments/assets/d75aa8d4-b4b4-4583-8275-d85744c0c8fe)
+`thread-A` 가 `userA` 라는 값을 저장하면 쓰레드 로컬은 `thread-A` 전용 보관소에 데이터를 안전하게 보관한다.
 
-img2
+![스크린샷 2024-08-08 오후 4 52 40](https://github.com/user-attachments/assets/8f0b3052-82f9-49e8-8dd4-1f3a634774af)
+`thread-B` 가 `userB` 라는 값을 저장하면 쓰레드 로컬은 `thread-B` 전용 보관소에 데이터를 안전하게 보관한다.
 
-img3
+![스크린샷 2024-08-08 오후 4 52 48](https://github.com/user-attachments/assets/45777ee4-58a9-4a21-a308-34fec5525d87)
+쓰레드 로컬을 통해서 데이터를 조회할 때도 `thread-A` 가 조회하면 쓰레드 로컬은 `thread-A` 전용 보관소에서 `userA` 데이터를 반환해준다
 
 
 **ThreadLocal - 사용 방법**
