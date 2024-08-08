@@ -258,16 +258,10 @@ public class OrderRepositoryV1 {
 }
 ```
 
-img
+**동작 흐름**
+![스크린샷 2024-08-08 오후 12 36 33](https://github.com/user-attachments/assets/95c2bd65-eb1b-4a43-a9ac-60f35c793e4d)
 
 
-**실행결과**
-```log
-2024-08-08T12:35:00.887+09:00  INFO 40583 --- [advanced] [nio-8080-exec-1] h.a.app.trace.helloTraceV1.HelloTraceV1  : [f315bd31] OrderController.request()
-2024-08-08T12:35:00.888+09:00  INFO 40583 --- [advanced] [nio-8080-exec-1] h.a.app.trace.helloTraceV1.HelloTraceV1  : [0433a238] OrderService.orderItem()
-2024-08-08T12:35:00.888+09:00  INFO 40583 --- [advanced] [nio-8080-exec-1] h.a.app.trace.helloTraceV1.HelloTraceV1  : [b8a579df] OrderRepository.save()
-2024-08-08T12:35:01.893+09:00  INFO 40583 --- [advanced] [nio-8080-exec-1] h.a.app.trace.helloTraceV1.HelloTraceV1  : [b8a579df] OrderRepository.save() time=1005ms
-2024-08-08T12:35:01.893+09:00  INFO 40583 --- [advanced] [nio-8080-exec-1] h.a.app.trace.helloTraceV1.HelloTraceV1  : [0433a238] OrderService.orderItem() time=1005ms
-2024-08-08T12:35:01.893+09:00  INFO 40583 --- [advanced] [nio-8080-exec-1] h.a.app.trace.helloTraceV1.HelloTraceV1  : [f315bd31] OrderController.request() time=1006ms
+**실행 로그**
+<img width="427" alt="스크린샷 2024-08-08 오후 12 42 55" src="https://github.com/user-attachments/assets/d636ff93-0f3b-42de-b1e8-2a39cacc61a7">
 
-```
