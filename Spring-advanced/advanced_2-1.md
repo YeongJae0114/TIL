@@ -268,11 +268,13 @@ throw e; }
 `FieldLogTrace` 는 싱글톤으로 등록된 스프링 빈이다. 이 객체의 인스턴스가 애플리케이션에 딱 1 존재한다는 뜻이다.
 이렇게 하나만 있는 인스턴스의 `FieldLogTrace.traceIdHolder` 필드를 여러 쓰레드가 동시에 접근하기 때문에 문제가 발생한다.
 
-img 1
+**동시성 문제가 발생하는 이유**
+![스크린샷 2024-08-08 오후 4 48 35](https://github.com/user-attachments/assets/bdec88d8-c98f-4cd1-a41a-22079a0d4635)
+1. `Thread-A` 는 `userA` 를 `nameStore` 에 저장했다.
+   
+![스크린샷 2024-08-08 오후 4 48 43](https://github.com/user-attachments/assets/bc005fa3-23e5-42bc-9851-a5c8f9b3668c)
+2. `Thread-B` 는 `userB` 를 `nameStore` 에 저장했다.
 
-img 2
-
-img 3
-
-
-
+![스크린샷 2024-08-08 오후 4 48 54](https://github.com/user-attachments/assets/8c843c2c-a527-40aa-a58a-74d2870bdde0)
+3. `Thread-A` 는 `userB` 를 `nameStore` 에서 조회했다.
+4. `Thread-B` 는 `userB` 를 `nameStore` 에서 조회했다.
