@@ -173,6 +173,9 @@ public class OrderRepositoryV2 {
     }
 }
 ```
+**동작 흐름**
+![스크린샷 2024-08-08 오후 12 41 42](https://github.com/user-attachments/assets/46ae39ae-ea60-4b9f-86d0-980afe15628f)
 
 
 **실행결과**
+<img width="427" alt="스크린샷 2024-08-08 오후 12 42 37" src="https://github.com/user-attachments/assets/139cf8ce-4589-4e64-b8d2-8154a6d70cc4">
