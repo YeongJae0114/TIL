@@ -12,3 +12,8 @@
 - [**필드 동기화**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_2-1.md)
 - [**쓰레드 로컬**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_2-2.md)
 - [**쓰레드 로컬 - 주의사항**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_2-3.md)
+
+### SEC 3
+- [**템플릿 메서드 패턴 **](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_3-1.md)
+- [**strategy 전략**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_3-2.md)
+- [**???**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_3-3.md)
