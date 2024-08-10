@@ -17,3 +17,6 @@
 - [**템플릿 메서드 패턴**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_3-1.md)
 - [**strategy 전략**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_3-2.md)
 - [**템플릿 콜백 패턴**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_3-3.md)
+- [**템플릿 콜백 패턴 적용**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_3-4.md)
+
+### SEC 4
