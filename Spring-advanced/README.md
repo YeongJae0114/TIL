@@ -20,3 +20,7 @@
 - [**템플릿 콜백 패턴 적용**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_3-4.md)
 
 ### SEC 4
+- [**프록시 패턴과 데코레이터 패턴**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_4-1.md)
+- [**인터페이스 기반 프록시 - 적용**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_4-2.md)
+- [**인터페이스 기반 프록시와 클래스 기반 프록시**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_4-3.md)
+
