@@ -4,10 +4,17 @@
 
 ![image](https://github.com/user-attachments/assets/3d960fec-f372-486c-9bd7-f9d3ec9913cb)
 
+
+</br></br>
+
 **여기에 로그 추적용 프록시를 추가하면 다음과 같다.**
+
+</br></br>
 
 **클래스 의존 관계**
 ![image](https://github.com/user-attachments/assets/8053cd61-91fa-4643-bd79-358aa7be637f)
+
+
 
 **런타임 객체 의존 관계**
 ![image](https://github.com/user-attachments/assets/141f6f06-0c78-43b5-a090-635679d5f6fc)
