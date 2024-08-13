@@ -81,3 +81,9 @@ public class DynamicProxyBasicConfig {
     }
 }
 ```
+- 이전에는 프록시 클래스를 직접 개발했지만, 이제는 JDK 동적 프록시 기술을 사용해서 각각의 `Controller` , `Service` , `Repository` 에 맞는 동적 프록시를 생성해주면 된다.
+- `LogTraceBasicHandler` : 동적 프록시를 만들더라도 `LogTrace` 를 출력하는 로직은 모두 같기 때문에 프록시는 모두 `LogTraceBasicHandler` 를 사용한다.
+
+![image](https://github.com/user-attachments/assets/8137e0ad-28a8-48ac-8672-15d8cfa9395f)
+
+
