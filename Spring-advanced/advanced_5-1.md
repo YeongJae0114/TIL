@@ -87,3 +87,130 @@ public class ReflectionTest {
 
 **결론**
 정적인 `target.callA()` , `target.callB()` 코드를 리플렉션을 사용해서 `Method` 라는 메타정보로 추상화했 다. 덕분에 공통 로직을 만들 수 있게 되었다.
+
+## JDK 동적 프록시 - 소개
+동적 프록시 기술을 사용하면 개발자가 직접 프록시 클래스를 만들지 않아도 된다. 이름 그대로 프록시 객체를 동적으로 런타임에 개발자 대신 만들어준다. 그리고 동적 프록시에 원하는 실행 로직을 지정할 수 있다.
+
+`JDK 동적 프록시는 인터페이스를 기반으로 프록시를 동적으로 만들어준다. 따라서 인터페이스가 필수이다.`
+
+## 기본 예제 코드
+**AInterface**
+```java
+package hello.proxy.jdkdynamic.code;
+
+public interface AInterface {
+    void call();
+}
+```
+
+**AImpl**
+```java
+package hello.proxy.jdkdynamic.code;
+
+public class AImpl implements AInterface {
+    @Override
+    public void call() {
+    }
+}
+```
+
+**BInterface**
+```java
+package hello.proxy.jdkdynamic.code;
+
+public interface BInterface {
+    void call();
+}
+
+```
+**BImpl**
+```java
+package hello.proxy.jdkdynamic.code;
+
+public class BImpl implements BInterface {
+    @Override
+    public void call() {
+    }
+}
+```
+
+
+## JDK 동적 프록시 - 예제
+```java
+package hello.proxy.jdkdynamic.code;
+
+import lombok.extern.slf4j.Slf4j;
+
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Method;
+@Slf4j
+public class TimeInvocationHandler implements InvocationHandler {
+    private final Object target;
+
+    public TimeInvocationHandler(Object target) {
+        this.target = target;
+    }
+
+    @Override
+    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+        log.info("TimeProxy start");
+        long startTime = System.currentTimeMillis();
+        Object result = method.invoke(target, args);
+
+        long endTime = System.currentTimeMillis();
+        long resultTime = endTime - startTime;
+        log.info("resultTime = {}", resultTime);
+
+        log.info("TimeProxy end");
+        return result;
+    }
+}
+```
+- `TimeInvocationHandler` 은 `InvocationHandler` 인터페이스를 구현한다. 이렇게해서 JDK 동적 프록 시에 적용할 공통 로직을 개발할 수 있다.
+- `Object target` : 동적 프록시가 호출할 대상
+- `method.invoke(target, args)` : 리플렉션을 사용해서 `target` 인스턴스의 메서드를 실행한다. `args` 는 메서드 호출시 넘겨줄 인수이다.
+
+**JdkDynamicProxyTest**
+```
+package hello.proxy.jdkdynamic.code;
+
+import lombok.extern.slf4j.Slf4j;
+import org.junit.jupiter.api.Test;
+
+import java.lang.reflect.Proxy;
+
+@Slf4j
+public class JdkDynamicProxyTest {
+    @Test
+    void dynamicA(){
+        AInterface target = new AImpl();
+        TimeInvocationHandler handler = new TimeInvocationHandler(target);
+        AInterface proxy = (AInterface)Proxy.newProxyInstance(AInterface.class.getClassLoader(), new Class[]{AInterface.class}, handler);
+
+        proxy.call();
+        log.info("targetClass={}",target.getClass());
+        log.info("proxyClass={}",proxy.getClass());
+    }
+
+    @Test
+    void dynamicB(){
+        BInterface target =new BImpl();
+        TimeInvocationHandler handler = new TimeInvocationHandler(target);
+        BInterface proxy = (BInterface)Proxy.newProxyInstance(BInterface.class.getClassLoader(), new Class[]{BInterface.class}, handler);
+
+        proxy.call();
+        log.info("targetClass={}",target.getClass());
+        log.info("proxyClass={}",proxy.getClass());
+    }
+}
+```
+- `new TimeInvocationHandler(target)` : 동적 프록시에 적용할 핸들러 로직이다.
+- `Proxy.newProxyInstance(AInterface.class.getClassLoader(), new Class[] {AInterface.class}, handler)`
+- 동적 프록시는 `java.lang.reflect.Proxy` 를 통해서 생성할 수 있다.
+- 클래스 로더 정보, 인터페이스, 그리고 핸들러 로직을 넣어주면 된다. 그러면 해당 인터페이스를 기반으로 동적 프록시를 생성하고 그 결과를 반환한다.
+
+![image](https://github.com/user-attachments/assets/54f1999a-3444-4053-9b17-92a1a0d38bcd)
+
+**JDK 동적 프록시 도입 후 클래스 의존 관계**
+
+![image](https://github.com/user-attachments/assets/cbe74722-041a-4899-80ca-8e9bc8f70807)
