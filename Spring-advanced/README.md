@@ -24,3 +24,6 @@
 - [**인터페이스 기반 프록시 - 적용**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_4-2.md)
 - [**인터페이스 기반 프록시와 클래스 기반 프록시**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_4-3.md)
 
+### SEC 5. 동적 프록시 기술
+- [**리플렉션**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_5-1.md)
+- [**JDK 동적 프록시**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_5-2.md)
