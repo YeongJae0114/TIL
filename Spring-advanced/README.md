@@ -27,3 +27,7 @@
 ### SEC 5. 동적 프록시 기술
 - [**리플렉션**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_5-1.md)
 - [**JDK 동적 프록시**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_5-2.md)
+
+### SEC 6. 스프링이 지원하는 프록시
+- [**프록시 팩토리**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_6-1.md)
+- [**포인트컷/어드바이스/어드바이저**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_6-2.md)
