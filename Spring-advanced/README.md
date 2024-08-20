@@ -30,3 +30,28 @@
 ### SEC 6. 스프링이 지원하는 프록시
 - [**프록시 팩토리**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_6-1.md)
 - [**포인트컷/어드바이스/어드바이저**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_6-2.md)
+
+### SEC 7. 빈 후처리기
+- [**빈 후처리기 - 개념**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_7-1.md)
+- [**빈 후처리기 - 적용**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_7-2.md)
+
+
+
+### SEC 8. @Aspect AOP
+
+
+
+### SEC 9. 스프링 AOP 개념
+
+
+### SEC 10. 스프링 AOP 포인트컷
+
+
+### SEC 11. 스프링 AOP 개념
+
+
+### SEC 12. 스프링 AOP - 실전 예제
+
+
+### SEC 13. 스프링 AOP - 주의사항
+
