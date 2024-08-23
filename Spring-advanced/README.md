@@ -43,6 +43,8 @@
 
 
 ### SEC 9. 스프링 AOP 개념
+- [**스프링 AOP 개념1**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_9-1.md)
+- [**스프링 AOP 개념2**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_9-2.md)
 
 
 ### SEC 10. 스프링 AOP 포인트컷
