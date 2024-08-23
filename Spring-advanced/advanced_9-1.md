@@ -4,6 +4,7 @@
 ### 핵심 기능과 부가 기능
 
 애플리케이션 로직은 크게 핵심 기능과 부가 기능으로 나눌 수 있다.
+
 ![image](https://github.com/user-attachments/assets/21f8d7cc-353a-4b78-aaba-b70b96529cde)
 
 - **핵심 기능**은 해당 객체가 제공하는 고유의 기능이다. `OrderService`의 핵심 기능은 주문 로직
