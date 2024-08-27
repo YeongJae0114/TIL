@@ -46,9 +46,9 @@
 - [**스프링 AOP 개념2**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_9-2.md)
 
 ### SEC 10. 스프링 AOP 구현
-- [**스프링 AOP 구현**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_10-1.md)
-
-
+- [**스프링 AOP 구현**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_10-1.md)
+- [**AOP 구현 분리/추가/순서**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_10-1.md)
+- [**어드바이스 종류**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_10-1.md)
 
 ### SEC 11. 스프링 AOP 포인트컷
 
