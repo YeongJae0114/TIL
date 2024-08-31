@@ -71,48 +71,52 @@
 - 부모 타입(여기서는 `MemberService` 인터페이스) 지정시 `within` 은 실패하고, `execution` 은 성공하는 것을 확인할 수 있다.
 
 ## args
-`args` : 인자가 주어진 타입의 인스턴스인 조인 포인트로 매칭
+- `args` : 인자가 주어진 타입의 인스턴스인 조인 포인트로 매칭
+- 기본 문법은 `execution` 의 `args` 부분과 같다.
+**execution과의 차이점**
+- `execution(* *(java.io.Serializable))` : 메서드의 시그니처로 판단 (정적)
+- `args(java.io.Serializable)` : 런타임에 전달된 인수로 판단 (동적)
 
-
+**Test - args()**
 ```java
+ @Test
+     void args() {
+//hello(String)과 매칭
+     assertThat(pointcut("args(String)")
+           .matches(helloMethod, MemberServiceImpl.class)).isTrue();
+     assertThat(pointcut("args(Object)")
+           .matches(helloMethod, MemberServiceImpl.class)).isTrue();
+     // 인자가 주어진 인스턴스가 비어 있으면 안된다. 
+     assertThat(pointcut("args()")
+           .matches(helloMethod, MemberServiceImpl.class)).isFalse(); //매칭 실패 
+ }
 
+// execution과의 차이점
+@Test
+    void argsVsExecution() {
+        //Args
+        assertThat(pointcut("args(String)")
+                .matches(helloMethod, MemberServiceImpl.class)).isTrue();
+        assertThat(pointcut("args(java.io.Serializable)")
+                .matches(helloMethod, MemberServiceImpl.class)).isTrue();
+        assertThat(pointcut("args(Object)")
+                .matches(helloMethod, MemberServiceImpl.class)).isTrue();
+        //Execution
+        assertThat(pointcut("execution(* *(String))")
+                .matches(helloMethod, MemberServiceImpl.class)).isTrue();
+        assertThat(pointcut("execution(* *(java.io.Serializable))") 
+                .matches(helloMethod, MemberServiceImpl.class)).isFalse(); //매칭 실패 
+        assertThat(pointcut("execution(* *(Object))")
+                .matches(helloMethod, MemberServiceImpl.class)).isFalse(); //매칭 실패 
+}
 ```
 
+## @target, @within
+- `@target` : 실행 객체의 클래스에 주어진 타입의 애노테이션이 있는 조인 포인트
+- `@within` : 주어진 애노테이션이 있는 타입 내 조인 포인트
 
-## this
-```java
-
-```
-
-
-## target
-```java
-
-```
-
-## @target
-```java
-
-```
-
-## @within
-```java
-
-```
-
-
-## @annotation
-```java
-
-```
-
-
-## @args
-```java
-
-```
-
-## bean
-```java
-
-```
+**@target vs @within**
+- `@target` 은 인스턴스의 모든 메서드를 조인 포인트로 적용한다.
+- `@within` 은 해당 타입 내에 있는 메서드만 조인 포인트로 적용한다.
+  
+![image](https://github.com/user-attachments/assets/aaa173d3-f279-4329-ba0d-84ea8d67bca4)
