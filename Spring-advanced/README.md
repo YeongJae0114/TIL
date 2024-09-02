@@ -59,6 +59,7 @@
 
 
 ### SEC 13. 스프링 AOP - 실무 주의사항
+- [**스프링 AOP - 내부 호출 문제**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_13-1.md)
 
 
 
