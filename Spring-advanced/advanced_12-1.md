@@ -63,7 +63,7 @@ import org.springframework.context.annotation.Import;
 import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
 @Slf4j
-@Import({TraceAspect.class})
+@Import({TraceAspect.class})  // 빈으로 등록
 class ExamTest {
     @Autowired
     ExamService examService;
@@ -119,25 +119,101 @@ public class TraceAspect {
         log.info("[trace] = {}, args = {}", joinPoint.getSignature(), args);
     }
 }
+```
+- `@annotation(hello.aop.exam.annotation.Trace)` 포인트컷을 사용해서 `@Trace` 가 붙은 메서드에 어드 바이스를 적용
 
+**실행 결과**
+```text
+[trace] void hello.aop.exam.ExamService.request(String) args=[data0]
+[trace] String hello.aop.exam.ExamRepository.save(String) args=[data0]
+[trace] void hello.aop.exam.ExamService.request(String) args=[data1]
+[trace] String hello.aop.exam.ExamRepository.save(String) args=[data1]
 ```
 
-
+### 재시도 AOP
+**ReTry**
 ```java
+package hello.aop.exam.annotation;
 
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface ReTry {
+    int value() default 3;
+}
 ```
+- 재시도 횟수로 사용할 값이 있다. 기본값으로 `3` 을 사용
 
-
+**ReTryAspect**
 ```java
+package hello.aop.exam.aop;
 
+import hello.aop.exam.annotation.ReTry;
+import lombok.extern.slf4j.Slf4j;
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+
+@Aspect
+@Slf4j
+public class ReTryAspect {
+    @Around("@annotation(reTry)")
+    public Object doRetry(ProceedingJoinPoint joinPoint, ReTry reTry) throws Throwable{
+    log.info("[reTry] = {}, retry = {}", joinPoint.getSignature(), reTry);
+    Exception exceptionHolder = null;
+    int maxValue = reTry.value();
+        for (int reTryCount = 1; reTryCount <= maxValue; reTryCount++) {
+            try {
+                log.info("[reTry] try count={}/{}", reTryCount, maxValue);
+                return joinPoint.proceed();
+            }catch (Exception e){
+                exceptionHolder = e;
+            }
+        }
+        throw exceptionHolder;
+    }
+}
 ```
+- 재시도 하는 애스펙트이다.
+- `@annotation(retry)` , `Retry retry` 를 사용해서 어드바이스에 애노테이션을 파라미터로 전달한다.
+- `retry.value()` 를 통해서 애노테이션에 지정한 값을 가져올 수 있다.
+- 예외가 발생해서 결과가 정상 반환되지 않으면 `retry.value()` 만큼 재시도
 
-
+**ExamRepository**
 ```java
+package hello.aop.exam;
 
+import hello.aop.exam.annotation.ReTry;
+import hello.aop.exam.annotation.Trace;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Repository;
+
+@Repository
+@Slf4j
+public class ExamRepository {
+    static int seq = 0;
+    @Trace
+    @ReTry(4)
+    public void save(String itemId){
+        seq++;
+        if(seq % 5==0){
+            throw new IllegalStateException("5번 실패");
+        }
+    }
+}
 ```
-
-
+- `ExamRepository.save()` 메서드에 `@Retry(value = 4)` 를 적용
+  
+**ExamTest - 추가**
 ```java
-
+@SpringBootTest
+ //@Import(TraceAspect.class)
+ @Import({TraceAspect.class, RetryAspect.class})
+ public class ExamTest {
+}
 ```
