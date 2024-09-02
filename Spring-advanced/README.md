@@ -47,17 +47,18 @@
 
 ### SEC 10. 스프링 AOP 구현
 - [**스프링 AOP 구현**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_10-1.md)
-- [**AOP 구현 분리/추가/순서**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_10-1.md)
-- [**어드바이스 종류**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_10-1.md)
+- [**AOP 구현 분리/추가/순서**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_10-2.md)
+- [**어드바이스 종류**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_10-3.md)
 
 ### SEC 11. 스프링 AOP 포인트컷
+- [**AOP 포인트컷 정리**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_11-1.md)
 
 
-### SEC 12. 스프링 AOP 개념
+### SEC 12. 스프링 AOP - 실전 예제
+- [**스프링 AOP - 예제**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/advanced_12-1.md)
 
 
-### SEC 13. 스프링 AOP - 실전 예제
+### SEC 13. 스프링 AOP - 실무 주의사항
 
 
-### SEC 14. 스프링 AOP - 주의사항
 
