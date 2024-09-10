@@ -10,6 +10,9 @@
 
 ### 2. 웹 서버와 서블릿 컨테이너
 - [**웹 서버와 스프링 부트 && war/jar**](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot-core/boot-core_2-1.md)
+- [**서블릿 컨테이너 초기화**](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot-core/boot-core_2-2.md)
+- [**스프링 컨테이너 등록**](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot-core/boot-core_2-3.md)
+- [**스프링 MVC 서블릿 컨테이너 초기화 지원**](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot-core/boot-core_2-4.md)
 
 
 ### 3. 스프링 부트와 내장 톰캣
