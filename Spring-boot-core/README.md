@@ -16,6 +16,7 @@
 
 
 ### 3. 스프링 부트와 내장 톰캣
+- [**WAR 배포 방식의 단점**](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot-core/boot-core_3-1.md)
 
 ### 4. 스프링 부트 스타터와 라이브러리 관리
 
