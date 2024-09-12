@@ -18,6 +18,8 @@
 ### Spring
 - [**Spring boot**](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot/README.md)
 - [**Spring Core**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Core/README.md)
+- [**Spring boot Core**](https://github.com/YeongJae0114/TIL/blob/main/Spring-boot-core/README.md)
+
 - [**Spring Core - advanced**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/README.md)
 - [**Spring MVC (핵심 기술)**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/README.md)
 - [**Spring MVC-2 (활용)**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/README.md)
