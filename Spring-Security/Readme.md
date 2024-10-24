@@ -8,5 +8,6 @@
 
 ## 목차
 - [1-0 Spring Security 란?](https://github.com/YeongJae0114/TIL/blob/main/Spring-Security/spring-security_1-0.md)
+- [2 Spring MVC 에서 Spring Security 동작](https://github.com/YeongJae0114/TIL/blob/main/Spring-Security/spring-security_2.md)
 
 
