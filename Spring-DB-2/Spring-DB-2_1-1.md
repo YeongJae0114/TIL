@@ -128,5 +128,11 @@ public class ItemRepositoryV1 implements ItemRepository {
     }
 }
 ```
+### 주요 메서드 요약
+- save 메서드: KeyHolder를 통해 자동 생성된 ID를 받음.
+- update 메서드: 파라미터로 전달된 정보로 특정 아이템을 업데이트.
+- findById 메서드: ID로 단일 아이템 조회, 없으면 Optional.empty() 반환.
+- itemRowMapper 메서드: ResultSet을 Item 객체로 변환하는 매퍼.
+- findAll 메서드: 조건에 따른 동적 쿼리 생성 후 아이템 리스트 반환.
 
 
