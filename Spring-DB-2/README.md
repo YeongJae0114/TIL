@@ -9,4 +9,4 @@
 ## Spring DB-2
 
 ### 1.데이터 접근 기술 - Spring JdbcTemplate
- - [**1-0 JDBC 개념**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-2/Spring-DB-2_1-0.md)
+ - [**1-1 JDBC의 기본**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-2/Spring-DB-2_1-1.md)
