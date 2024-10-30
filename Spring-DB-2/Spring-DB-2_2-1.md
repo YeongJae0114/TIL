@@ -149,3 +149,123 @@ class ItemRepositoryTest {
 - `@AfterEach` : 각각의 테스트 케이스가 완료된 직후에 호출된다.
 
 `이제 이 테스트를 반복적으로 실행 시켜도 테스트가 성공한다!`😀
+
+
+## @Transactional 사용
+>매번 `@BeforeEach` , `@AfterEach` 를 사용해 롤백을 하는 건 불편하다. 그래서 스프링에서 제공하는 `@Transactional` 애노테이션은 로직이 성공적으로 수행되면 커밋하도록 동작한다. `@Transactional` 애노테이션을 테스트에서 사용하면 아주 특별하게 동작한다.
+
+**ItemRepositoryTest - @Transactional 사용**
+```java
+package hello.itemservice.domain;
+
+import org.springframework.transaction.annotation.Transactional;
+import ...
+
+@Transactional
+@SpringBootTest
+class ItemRepositoryTest {
+
+    @Autowired
+    ItemRepository itemRepository;
+
+
+//    @Autowired
+//    PlatformTransactionManager transactionManager;
+//    TransactionStatus status;
+
+//    @BeforeEach
+//    void before(){
+//        // 트랜잭셔 시작
+//        status = transactionManager.getTransaction(new DefaultTransactionDefinition());
+//    }
+
+    @AfterEach
+    void afterEach() {
+        //MemoryItemRepository 의 경우 제한적으로 사용
+        if (itemRepository instanceof MemoryItemRepository) {
+            ((MemoryItemRepository) itemRepository).clearStore();
+        }
+
+        //transactionManager.rollback(status);
+    }
+
+    @Test
+    void save() {
+        //given
+        Item item = new Item("itemA", 10000, 10);
+
+        //when
+        Item savedItem = itemRepository.save(item);
+
+        //then
+        Item findItem = itemRepository.findById(item.getId()).get();
+        assertThat(findItem).isEqualTo(savedItem);
+    }
+
+    @Test
+    void updateItem() {
+        //given
+        Item item = new Item("item1", 10000, 10);
+        Item savedItem = itemRepository.save(item);
+        Long itemId = savedItem.getId();
+
+        //when
+        ItemUpdateDto updateParam = new ItemUpdateDto("item2", 20000, 30);
+        itemRepository.update(itemId, updateParam);
+
+        //then
+        Item findItem = itemRepository.findById(itemId).get();
+        assertThat(findItem.getItemName()).isEqualTo(updateParam.getItemName());
+        assertThat(findItem.getPrice()).isEqualTo(updateParam.getPrice());
+        assertThat(findItem.getQuantity()).isEqualTo(updateParam.getQuantity());
+    }
+
+    @Test
+    void findItems() {
+        //given
+        Item item1 = new Item("itemA-1", 10000, 10);
+        Item item2 = new Item("itemA-2", 20000, 20);
+        Item item3 = new Item("itemB-1", 30000, 30);
+
+        itemRepository.save(item1);
+        itemRepository.save(item2);
+        itemRepository.save(item3);
+
+        //둘 다 없음 검증
+        test(null, null, item1, item2, item3);
+        test("", null, item1, item2, item3);
+
+        //itemName 검증
+        test("itemA", null, item1, item2);
+        test("temA", null, item1, item2);
+        test("itemB", null, item3);
+
+        //maxPrice 검증
+        test(null, 10000, item1);
+
+        //둘 다 있음 검증
+        test("itemA", 10000, item1);
+    }
+
+    void test(String itemName, Integer maxPrice, Item... items) {
+        List<Item> result = itemRepository.findAll(new ItemSearchCond(itemName, maxPrice));
+        assertThat(result).containsExactly(items);
+    }
+}
+```
+
+**@Transactional 동작 방식**
+
+![image](https://github.com/user-attachments/assets/235988af-ccc1-4f43-aaac-28d61b57de62)
+
+>**참고**
+>
+>테스트 케이스의 메서드나 클래스에 `@Transactional` 을 직접 붙여서 사용할 때 만 이렇게 동작한다.
+>그리고 트랜잭션을 테스트에서 시작하기 때문에 서비스, 리포지토리에 있는 `@Transactional` 도 테스트에서 시작한 트랜잭션에 참여한다. (이 부분은 뒤에 트랜잭션 전파에서 더 자세히 설명>하겠다. 지금은 테스트에서 트랜잭션을 실행하면 테스트 실행이 종료될 때 까지 테스트가 실행하는 모든 코드가 같은 트랜잭션 범위에 들어간다고 이해하면 된다. 같은 범위라는 뜻은 쉽게 이야기해서 같은 트랜잭션을 사용한다는 뜻이다. 그리고 같은 트랜잭션 을 사용한다는 것은 같은 커넥션을 사용한다는 뜻이기도 하다.)
+
+
+이제 내가 직접 데이터를 삭제하지 않아도 데이터가 자동으로 롤백 된다. 또한 트랜잭션 범위 안에서 테스트를 진행하기 때문에 동시에 다른 테스트가 진행되어도 서로 영향을 주지 않는 장점이 있다. 
+
+@Transactional` 덕분에 아주 편리하게 다음 원칙을 지킬수 있게 되었다. 
+- 테스트는 다른 테스트와 격리해야 한다.
+- 테스트는 반복해서 실행할 수 있어야 한다.
