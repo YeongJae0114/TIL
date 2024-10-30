@@ -19,3 +19,7 @@
 
 
 ### 3. MyBatis - 데이터 접근 기술
+ - [**3-1 MyBatis 소개**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-2/Spring-DB-2_3-1.md)
+ - [**3-2 MyBatis 설정/사용**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-2/Spring-DB-2_3-2.md)
+ - [**3-3 MyBatis 동작 원리**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-2/Spring-DB-2_3-3.md)
+
