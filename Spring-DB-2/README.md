@@ -13,3 +13,9 @@
  - [**1-2 JDBC의 동적 쿼리**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-2/Spring-DB-2_1-2.md)
  - [**1-3 JdbcTemplate 이름 지정 파라미터**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-2/Spring-DB-2_1-3.md)
  - [**1-4 JdbcTemplate 사용법 정리**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-2/Spring-DB-2_1-4.md)
+
+### 2. 데이터 접근 기술 - 테스트
+ - [**2 데이터 베이스 롤백**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-2/Spring-DB-2_2-1.md)
+
+
+### 3. MyBatis - 데이터 접근 기술
