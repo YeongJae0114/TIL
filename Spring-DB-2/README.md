@@ -24,8 +24,8 @@
  - [**3-3 MyBatis 동작 원리**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-2/Spring-DB-2_3-3.md)
 
 ### 4. JPA - 데이터 접근 기술
- - [**4-1 JPA - 데이터 접근 기술**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/README.md)
+ - [**4-1 JPA 기본**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/README.md)
 
 
-### 5. 스프링 데이터 JPA
- - [**5-1 스프링 데이터 JPA**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/README.md)
+### 5. 데이터 접근 기술 - 활용 방안
+
