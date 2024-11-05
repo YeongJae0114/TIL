@@ -32,5 +32,7 @@
 
 ### 6.스프링 트랜잭션 소개
  - [**6-1 스프링 트랜잭션 소개**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-2/Spring-DB-2_6-1.md)
+ - [**6-2 트랜잭션 AOP 주의 사항**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-2/Spring-DB-2_6-2.md)
+ - [**6-3 예외와 트랜잭션 커밋, 롤백**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-2/Spring-DB-2_6-3.md)
 
 
