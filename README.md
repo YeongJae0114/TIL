@@ -22,14 +22,15 @@
 - [**Spring Core - advanced**](https://github.com/YeongJae0114/TIL/blob/main/Spring-advanced/README.md)
 - [**Spring MVC (핵심 기술)**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC/README.md)
 - [**Spring MVC-2 (활용)**](https://github.com/YeongJae0114/TIL/blob/main/Spring-MVC-2/README.md)
-- [**Spring DB-1**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/README.md)
-- [**Spring DB-2**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-2/README.md)
+
+#### DB
 - [**Spring JPA-basic**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-basic/README.md)
 - [**Spring JPA-1**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-1/README.md)
 - [**Spring JPA-2**](https://github.com/YeongJae0114/TIL/blob/main/Spring-Jpa-2/README.md)
+- [**Spring DB-1**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-1/README.md)
+- [**Spring DB-2**](https://github.com/YeongJae0114/TIL/blob/main/Spring-DB-2/README.md)
 
-### Spring Boot - CI / CD 무중단 배포
-- [**Spring Boot - CI / CD 무중단 배포**](https://github.com/YeongJae0114/TIL/tree/main/Spring-Boot-CI-CD)
+### Computer Science
 
 
 ### Git / Github
