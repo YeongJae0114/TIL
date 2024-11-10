@@ -8,9 +8,9 @@
 
 ## ☁️ Certificate Developer
 
- - [**3. AWS 시작하기**](/AWS-Associate/AWS-Associate_3.md)
- - [**4. AWS IAM**](/AWS-Associate/AWS-Associate_4.md)
- - [**5. EC2 기초**](/AWS-Associate/AWS-Associate_5.md)
- - [**6. EBS/EFS 인스턴스 스토리지**](/AWS-Associate/AWS-Associate_6.md)
- - [**7. ELB + ASG 기초**](/AWS-Associate/AWS-Associate_7.md)
- - [**8. Amazon RDS**](/AWS-Associate/AWS-Associate_8.md)
+ - [**3. AWS 시작하기**](./AWS-Associate_3.md)
+ - [**4. AWS IAM**](./AWS-Associate_4.md)
+ - [**5. EC2 기초**](./AWS-Associate_5.md)
+ - [**6. EBS/EFS 인스턴스 스토리지**](./AWS-Associate_6.md)
+ - [**7. ELB + ASG 기초**](./AWS-Associate_7.md)
+ - [**8. Amazon RDS**](./AWS-Associate_8.md)
