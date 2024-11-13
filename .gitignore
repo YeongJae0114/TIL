@@ -35,3 +35,6 @@ Temporary Items
 *.icloud
 
 # End of https://www.toptal.com/developers/gitignore/api/macos
+
+# 이미지는 로컬에서만 저장함
+img/
