@@ -4,11 +4,11 @@
 - [1-1. 주요 명령어 정리](./redis_1-1.md)
 - [1-2. 네이밍 컨벤션](./redis_1-2.md)
 
-### 2. 로컬 환경에서 Redis 활용 실습
-- [2-0. Spring Boot + Redis로 구현하기](./redis_2-0.md)
+### 2. Redis 캐싱 전략
+- [2-0. 캐시 & 캐싱이란?](./redis_2-0.md)
 
-### 3. [보충 강의] Nest.js와 Redis
-- [3-0. 로컬 환경에서 Nest.js + Redis로 구현하기](./redis_3-0.md)
+### 3. 로컬 환경에서 Redis 활용 실습
+- [3-0. Spring Boot + Redis로 구현하기](./redis_3-0.md)
 
 ### 4. 클라우드 환경에서 Redis 활용
 - [4-0. AWS EC2에서 Redis 활용하기](./redis_4-0.md)
