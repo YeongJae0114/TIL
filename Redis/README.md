@@ -10,7 +10,7 @@
 - [2-2. 캐싱 전략의 한계점 & 해결](./redis_2-2.md)
 
 ### 3. 로컬 환경에서 Redis 활용 실습
-- [3-0. Spring Boot + Redis로 구현하기](./redis_3-0.md)
+- [3-1. Spring Boot + Redis로 구현하기](./redis_3-1.md)
 
 ### 4. 클라우드 환경에서 Redis 활용
 - [4-0. AWS EC2에서 Redis 활용하기](./redis_4-0.md)
