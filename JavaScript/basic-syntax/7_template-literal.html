@@ -1,0 +1,33 @@
+<!-- 7_template-literal.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>07 - Template Literal</title>
+</head>
+<body>
+  <h1>Template Literal 연습</h1>
+  <p>콘솔을 열어보세요 (F12)</p>
+
+<script>
+  const name = "Yeongjae";
+  const age = 25;
+
+  console.log("✅ 변수 삽입");
+  console.log(`이름은 ${name}이고, 나이는 ${age}살입니다.`);
+
+  console.log("✅ 표현식 삽입");
+  console.log(`5 + 3 = ${5 + 3}`);
+
+  console.log("✅ 함수 호출도 가능");
+  const greet = () => "반가워요!";
+  console.log(`인사: ${greet()}`);
+
+  console.log("✅ 여러 줄 문자열");
+  const msg = `안녕하세요,
+이 문자열은
+여러 줄로 작성됐습니다.`;
+  console.log(msg);
+</script>
+</body>
+</html>
