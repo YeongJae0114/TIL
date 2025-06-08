@@ -1,0 +1,73 @@
+<!-- 2_types.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>02 - 데이터 타입 연습</title>
+</head>
+<body>
+  <h1>JavaScript 데이터 타입 실습</h1>
+  <p>콘솔을 열어보세요 (F12)</p>
+
+  <script>  
+    console.log("🧪 기본 원시 타입 ------------------");
+
+    const age = 28;             // number (정수)
+    const pi = 3.14;            // number (실수)
+    const name = "Jay";         // string
+    const isStudent = false;    // boolean
+    let unassigned;             // undefined
+    const nothing = null;       // null
+
+    console.log(typeof age);        // number
+    console.log(typeof pi);         // number
+    console.log(typeof name);       // string
+    console.log(typeof isStudent);  // boolean
+    console.log(typeof unassigned); // undefined
+    console.log(typeof nothing);    // ❗ object (버그지만 공식화됨)
+
+    console.log("🧪 특별한 타입 ------------------");
+    const big = 1234567890123456789012345678901234567890n;
+    const unique = Symbol("id");
+
+    console.log(typeof big);     // bigint
+    console.log(typeof unique);  // symbol
+
+    console.log("🧪 참조 타입 ------------------");
+    const user = {
+      name: "Jay",
+      age: 28
+    };
+
+    const numbers = [1,2,3,4];
+    function greet(){
+        console.log("hello");
+    }
+
+    
+    console.log(typeof user);     // object
+    console.log(typeof numbers);  // object (배열도 객체로 나옴)
+    console.log(typeof greet);    // function
+
+    // 배열의 값을 확인하는 방법
+    console.log(Array.isArray(numbers)); // true
+
+    console.log("🧪 null은 왜 object인가? ------------------");
+
+    const empty = null;
+    console.log(typeof empty); // object ❗ 주의, 그래서 null 체크는 === 연산으로!
+
+    console.log("🧪 typeof로 잘못 판단할 수 있는 예시 ------------------");
+
+    const arr = [1,2,3];
+    if(typeof arr == "object"){
+        console.log("객체일 수 도 있고 배열일 수도 있음");
+    }
+
+    if(Array.isArray(arr)){
+        console.log("배열임을 정확하게 확인");
+    }
+
+  </script>
+</body>
+</html>
