@@ -1,0 +1,44 @@
+<!-- 3_operators.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>03 - 산술 연산자 연습</title>
+</head>
+<body>
+  <h1>산술 연산자 연습</h1>
+  <p>콘솔을 열어보세요 (F12)</p>
+
+
+  <script>  
+    console.log("🧪 산술 연산자");
+    console.log(1 + 2); // 3
+    console.log(10 % 3); // 1
+    console.log(2 ** 3); // 8
+
+    console.log("🧪 할당 연산자");
+    let x = 5; // const 는 사용 불가
+    x += 3; // 8
+    console.log(x); // 8
+
+    console.log("🧪 비교 연산자");
+    console.log(1 == "1");  // true (강제로 타입 변경)
+    console.log(1 === "1"); // false (타입까지 비교)
+
+    console.log("🧪 논리 연산자");
+    console.log(true && false); // false
+    console.log(true || false); // true
+
+    console.log("🧪 삼항 연산자");
+    const age = 18;
+    const msg = age >= 19 ? "성인" : "미성년자";
+    console.log(msg);
+
+    console.log("🧪 typeof 확인");
+    console.log(typeof null);      // "object"
+    console.log(typeof [1, 2, 3]); // "object"
+    console.log(typeof function(){}); // "function"
+
+  </script>
+</body>
+</html>
