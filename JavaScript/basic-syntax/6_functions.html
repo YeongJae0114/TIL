@@ -1,0 +1,51 @@
+<!-- 6_functions.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>06 - 함수 연습</title>
+</head>
+<body>
+  <h1>함수 연습</h1>
+  <p>F12를 눌러 콘솔을 확인하세요</p>
+
+  <script>
+    console.log("📌 함수 선언식");
+    function sayHello() {
+      console.log("Hello!");
+    }
+    sayHello();
+
+    console.log("📌 함수 표현식");
+    const sayHi = function () {
+      console.log("Hi!");
+    };
+    sayHi();
+
+    console.log("📌 화살표 함수");
+    const greet = () => {
+      console.log("안녕하세요!");
+    };
+    greet();
+
+    console.log("📌 매개변수와 반환값");
+    function add(a, b) {
+      return a + b;
+    }
+    console.log(add(2, 3)); // 5
+
+    console.log("📌 함수는 값이다");
+    function execute(callback) {
+      callback();
+    }
+    execute(() => console.log("콜백 함수 실행"));
+
+    console.log("📌 return 없는 함수");
+    function noReturn() {
+      console.log("리턴 없음");
+    }
+    const result = noReturn();
+    console.log(result); // undefined
+  </script>
+</body>
+</html>
