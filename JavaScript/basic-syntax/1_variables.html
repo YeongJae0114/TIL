@@ -1,0 +1,79 @@
+<!-- 1_variables.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>01 - 변수 연습</title>
+</head>
+<body>
+  <h1>변수 연습</h1>
+  <p>콘솔을 열어보세요 (F12)</p>
+
+  <script>
+    // 1. var, let, const 차이
+    var a = 1;
+    let b = 2;
+    const c = 3;
+
+    // 재선언 / 재할당
+    // 1.1 var : 재선언, 재할당 모두 가능 
+    var a = 10;  // ✅ 재선언
+    a = 20;     // ✅ 재할당
+    a = "asd"; // 다른 타입도 할당이 가능
+
+    // 1.2 let : 재선언 안됨, 재할당 가능 
+    // let b = 10;  ❌ 재선언 Error
+    b = 10; // ✅ 재할당 
+    b = "str";  // ✅  다른 타입도 할당이 가능
+
+    // 1.3 const : 재선언 안됨, 재할당 안됨
+    // const c = 10;  ❌ 재선언 Error
+    // c = 20; // ❌ 재할당 Error
+    // c = "10"; ❌ Error
+    
+    // 2. 스코프 비교 : 변수에 접근할 수 있는 범위
+    if(true){
+        var x =1;
+        let y=2;
+        const z=3;
+    }
+    console.log(x); // ✅ 1 → var는 함수 스코프
+    // console.log(y); // ❌ ReferenceError → let은 블록 스코프
+    // console.log(z); // ❌ ReferenceError → const도 블록 스코프
+
+    // 3. 호이스팅(Hoisting) : 변수나 함수 선언이 코드 실행 전에 '끌어올려지는' 현상
+
+    // 3.1 var 의 호이스팅
+    // var Hoisting_var; ⤴️ 끌어올려짐
+    console.log(Hoisting_var) // 위에서 HoistingA 선언하지 않았지만, 호이스팅에 의해 var 선언이 끌어올려짐 (값:undefined)
+    var Hoisting_var = 1;
+
+    // 3.2 let 의 호이스팅
+    // let Hoisting_let; ⤴️ 끌어올려짐
+    // console.log(Hoisting_let) // ❌ ReferenceError (호이스팅은 동작하지만, 초기화 전에는 접근 불가)
+    let Hoisting_let = 2; 
+    
+    // 3.2 const 의 호이스팅
+    // let Hoisting_let; ⤴️ 끌어올려짐
+    // console.log(Hoisting_const) // ❌ ReferenceError (호이스팅은 동작하지만, 초기화 전에는 접근 불가)
+    let Hoisting_const = 2; 
+    
+
+    // 4.  const는 진짜 불변일까? : const는 변수 자체의 "재할당"만 금지하고, 참조형 데이터의 내부는 변경할 수 있다.
+    // 4.1 원시 값은 완전히 불변
+    const name = "Jay";
+    // name = "Yeongjae"; // ❌ TypeError: Assignment to constant variable
+    console.log(name); // "Jay"
+
+    // 4.2 객체 내부 값은 변경 가능
+    const user ={
+        name : "Jay",
+        age: 25
+    };
+    user.name = "YeongJae";
+    user.age = 20;
+    console.log(user)
+    // user = { name: "New" }; // ❌ TypeError (재할당 금지)
+  </script>
+</body>
+</html>
