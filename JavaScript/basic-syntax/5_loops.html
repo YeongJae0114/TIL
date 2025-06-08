@@ -1,0 +1,56 @@
+<!-- 5_loops.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>05 - 반복문 연습</title>
+</head>
+<body>
+  <h1>반복문 연습</h1>
+  <p>F12를 눌러 콘솔을 확인해보세요.</p>
+
+  <script>
+    console.log("🔁 for 문 - 0부터 4까지 출력");
+    for (let i = 0; i < 5; i++) {
+      console.log(i);
+    }
+
+    console.log("🔁 while 문 - 0부터 4까지 출력");
+    let j = 0;
+    while (j < 5) {
+      console.log(j);
+      j++;
+    }
+
+    console.log("🔁 do...while 문 - 최소 1회 실행");
+    let k = 10;
+    do {
+      console.log("한 번은 실행됨:", k);
+      k++;
+    } while (k < 5);
+
+    console.log("🔁 for...of 문 - 배열 순회");
+    const fruits = ["사과", "바나나", "포도"];
+    for (const fruit of fruits) {
+      console.log(fruit);
+    }
+
+    console.log("🔁 for...in 문 - 객체 속성 순회");
+    const user = {
+      name: "Jay",
+      age: 25,
+      job: "developer"
+    };
+    for (const key in user) {
+      console.log(key + ":", user[key]);
+    }
+
+    console.log("⚠️ break / continue 예제");
+    for (let i = 0; i < 10; i++) {
+      if (i === 3) continue; // 3은 건너뜀
+      if (i === 6) break;    // 6에서 멈춤
+      console.log(i);
+    }
+  </script>
+</body>
+</html>
