@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>📃 게시판</title>
+  <style>
+    body { font-family: Arial; padding: 2rem; max-width: 600px; margin: auto; }
+    h1 { text-align: center; }
+    .post { border: 1px solid #ddd; padding: 1rem; margin-bottom: 1rem; }
+    .post-title { font-weight: bold; font-size: 1.2rem; }
+    .post-actions { margin-top: 0.5rem; }
+  </style>
+</head>
+<body>
+  <h1>📃 게시판</h1>
+
+  <h3>✍️ 새 글 작성</h3>
+  <input id="titleInput" placeholder="제목" style="width:100%; margin-bottom:0.5rem;"><br>
+  <textarea id="contentInput" placeholder="내용" rows="4" style="width:100%;"></textarea><br>
+  <button onclick="createPost()">등록</button>
+
+  <hr>
+
+  <h3>📑 게시글 목록</h3>
+  <div id="postList"></div>
+
+  <script>
+    const API_URL = 'http://localhost:3000/posts';
+
+    // 📍 게시글 목록 불러오기
+    async function fetchPosts() {
+      const res = await fetch(API_URL);
+      const posts = await res.json();
+
+      const container = document.getElementById('postList');
+      container.innerHTML = '';
+
+      posts.forEach(post => {
+        const div = document.createElement('div');
+        div.className = 'post';
+        div.innerHTML = `
+          <div class="post-title">${post.title}</div>
+          <div class="post-content">${post.content}</div>
+          <div class="post-actions">
+            <button onclick="deletePost(${post.id})">삭제</button>
+            <button onclick="editPost(${post.id}, '${post.title}', \`${post.content}\`)">수정</button>
+          </div>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    // 📍 게시글 등록
+    async function createPost() {
+      const title = document.getElementById('titleInput').value;
+      const content = document.getElementById('contentInput').value;
+
+      await fetch(API_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ title, content })
+      });
+
+      document.getElementById('titleInput').value = '';
+      document.getElementById('contentInput').value = '';
+      fetchPosts();
+    }
+
+    // 📍 게시글 삭제
+    async function deletePost(id) {
+      if (!confirm('정말 삭제하시겠습니까?')) return;
+
+      await fetch(`${API_URL}/${id}`, {
+        method: 'DELETE'
+      });
+
+      fetchPosts();
+    }
+
+    // 📍 게시글 수정
+    async function editPost(id, oldTitle, oldContent) {
+      const title = prompt('수정할 제목:', oldTitle);
+      const content = prompt('수정할 내용:', oldContent);
+
+      if (title === null || content === null) return;
+
+      await fetch(`${API_URL}/${id}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ title, content })
+      });
+
+      fetchPosts();
+    }
+
+    // 페이지 로드 시 게시글 불러오기
+    fetchPosts();
+  </script>
+</body>
+</html>
